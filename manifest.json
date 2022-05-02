@@ -1,0 +1,10 @@
+{
+  "Name": "Pokemania Revised",
+  "Author": "The Krominator",
+  "Version": "1.0.0",
+  "Description": "Inserts Pokemon into the Stardew Valley world",
+  "UniqueID": "TheKrominator.PokemaniaRevised",
+  "EntryDll": "Pokemania.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "zoidberg" ]
+}
