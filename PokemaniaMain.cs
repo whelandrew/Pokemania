@@ -18,6 +18,9 @@ namespace PokemaniaMain
         {
             Helper.Content.AssetEditors.Add(new ImageReplacers(Helper));
             Helper.Content.AssetEditors.Add(new ImageEdits(Helper));
+            Helper.Content.AssetEditors.Add(new EditStrings(Helper));
+            Helper.Content.AssetEditors.Add(new StringEditsManual(Helper));
+
         }
     }
 }

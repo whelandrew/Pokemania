@@ -6,11 +6,10 @@ using StardewValley;
 
 class ImageReplacers : IAssetEditor
 {
-    string[] toReplace = new string[] { "LooseSprites/Cursors2", 
-                                        "Minigames/TitleButtons", 
+    string[] toReplace = new string[] { 
                                         "LooseSprites/GemBird", 
                                         "MiniGames/submarine_tilesheet",
-                                        "TileSheets/Critters",
+                                        "TileSheets/critters",
                                         "Portraits/Bear",
                                         "LooseSprites/cowPhotos",
                                         "LooseSprites/cowPhotosWinter",
@@ -56,8 +55,12 @@ class ImageReplacers : IAssetEditor
                                         "Animals/Brown Chicken",
                                         "Animals/Brown Cow",
                                         "Animals/cat", //cat1, cat2
+                                        "Animals/cat1",
+                                        "Animals/cat2",
                                         "Animals/Dinosaur",
                                         "Animals/dog", //dog1, dog2
+                                        "Animals/dog1",
+                                        "Animals/dog2",
                                         "Animals/Duck",
                                         "Animals/Goat",
                                         "Animals/horse",
@@ -70,11 +73,10 @@ class ImageReplacers : IAssetEditor
                                         "Animals/White Cow"
 
     };
-    string[] replaceWith = new string[] {   "NewCursors2", 
-                                            "NewTitleButtons", 
-                                            "Chatot.png", 
+    string[] replaceWith = new string[] {   
+                                            "NewGemBird.png", 
                                             "submarine_tilesheet.png",
-                                            "Critters",
+                                            "critters",
                                             "Bear",
                                             "cowPhotos",
                                             "cowPhotosWinter",
@@ -120,8 +122,12 @@ class ImageReplacers : IAssetEditor
                                             "Brown Chicken",
                                             "Brown Cow",
                                             "cat", // cat1, cat2
+                                            "cat1",
+                                            "cat2",
                                             "Dinosaur",
                                             "dog", //dog1 dog2
+                                            "dog1",
+                                            "dog2",
                                             "Duck",
                                             "Goat",
                                             "horse",
@@ -146,17 +152,14 @@ class ImageReplacers : IAssetEditor
     }
     public bool CanEdit<T>(IAssetInfo asset)
     {
-        return GetReplacer(asset.AssetName);
-        //if (GetReplacer(asset.AssetName))
-        //    return true;
-        //return false;
+        return GetReplacer(asset.AssetName); 
     }
     public void Edit<T>(IAssetData asset)
     {
         if (GetReplacer(asset.AssetName))
         {
             Texture2D image = modHelper.Content.Load<Texture2D>("assets/" + replaceWith[currentReplacer] + ".png", ContentSource.ModFolder);
-            asset.AsImage().PatchImage(image, image.Bounds, image.Bounds, PatchMode.Overlay);
+            asset.AsImage().PatchImage(image, image.Bounds, image.Bounds, PatchMode.Replace);
         }            
     }
     private bool GetReplacer(string name)
