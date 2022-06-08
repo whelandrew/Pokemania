@@ -98,7 +98,7 @@ public class EditStrings : IAssetEditor
 		edits.Add(new StringEdits("Data/ObjectInformation", 142, "Magikarp/55/10/Fish -4/Magikarp/Because all Magikarp seem to do is splash around, some consider them weak, but they're actually a hardy Pokémon that can survive in water no matter how dirty it is./Day Night^Winter"));
 		edits.Add(new StringEdits("Data/ObjectInformation", 143, "Barboach/200/20/Fish -4/Barboach/Hides in mud, leaving only its two whiskers exposed while it waits for prey to come along./Day^Spring Fall Winter"));
 		edits.Add(new StringEdits("Data/ObjectInformation", 145, "Alomomola/30/5/Fish -4/Alomomola/It can use Heal Pulse to help friends recover./Day^Spring Summer"));
-		edits.Add(new StringEdits("Data/ObjectInformation", 148, "Eelektros/85/12/Fish -4/Eelektros/Eelektross's mouth locks onto its opponents, where upon it delivers an electric shock./Night^Spring Fall"));
+		edits.Add(new StringEdits("Data/ObjectInformation", 148, "Eelektrik/85/12/Fish -4/Eelektrik/They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns./Night^Spring Fall"));
 		edits.Add(new StringEdits("Data/ObjectInformation", 149, "Octillery/150/-300/Fish -4/Octillery/It locks onto opponents with its leg suckers, then rams them with its rock-hard head./Day^Summer"));
 		edits.Add(new StringEdits("Data/ObjectInformation", 150, "Goldeen/50/10/Fish -4/Goldeen/When the weather warms up, Goldeen form schools and swim upriver./Day^Summer Fall Winter"));
 		edits.Add(new StringEdits("Data/ObjectInformation", 151, "Inkay/80/10/Fish -4/Inkay/It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place./Day^Winter"));

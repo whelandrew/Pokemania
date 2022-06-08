@@ -35,14 +35,14 @@ public class ImageEdits : IAssetEditor
         edits[0] = new EditClass("LooseSprites/Cursors");
         edits[0].replacers = new replacer[]
         {
-            new replacer("TrainAnimals", new Rectangle(320, 575, 32, 32)),
-            new replacer("TrainGraffiti_01", new Rectangle(223, 371, 32, 32)),
-            new replacer("TrainGraffiti_02", new Rectangle(319, 639, 32, 32)),
-            new replacer("TrainGraffiti_03", new Rectangle(415, 639, 32, 32)),
-            new replacer("TrainGraffiti_04", new Rectangle(351, 607, 32, 32)),
-            new replacer("TrainGraffiti_05", new Rectangle(415, 575, 32, 32)),
-            new replacer("TrainGraffiti_06", new Rectangle(319, 704, 32, 32)),
-            new replacer("TrainGraffiti_06", new Rectangle(224, 607, 32, 32)),
+            new replacer("TrainAnimals", new Rectangle(320, 576, 32, 32)),
+            new replacer("TrainGraffiti_01", new Rectangle(224, 672, 32, 32)),
+            new replacer("TrainGraffiti_02", new Rectangle(320, 640, 32, 32)),
+            new replacer("TrainGraffiti_03", new Rectangle(416, 640, 32, 32)),
+            new replacer("TrainGraffiti_04", new Rectangle(352, 608, 32, 32)),
+            new replacer("TrainGraffiti_05", new Rectangle(416, 576, 32, 32)),
+            new replacer("TrainGraffiti_06", new Rectangle(320, 704, 32, 32)),
+            new replacer("TrainGraffiti_06", new Rectangle(224, 608, 32, 32)),
             new replacer("Zubat", new Rectangle(640, 1664, 64, 16)),
             new replacer("Pokeballs", new Rectangle(370, 32, 59, 11)),
             new replacer("Mew", new Rectangle(362, 86, 58, 21)),
