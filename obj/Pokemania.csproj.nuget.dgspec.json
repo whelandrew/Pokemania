@@ -40,9 +40,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "ILAsm": {
+              "target": "Package",
+              "version": "[4.700.2, )"
+            },
             "Pathoschild.Stardew.ModBuildConfig": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.0.1, )"
+            },
+            "Platonymous.PlatoTK": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "System.Console": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [

@@ -4,6 +4,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)pathoschild.stardew.modbuildconfig\4.0.0\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('$(NuGetPackageRoot)pathoschild.stardew.modbuildconfig\4.0.0\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
+    <Import Project="$(NuGetPackageRoot)pathoschild.stardew.modbuildconfig\4.0.1\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('$(NuGetPackageRoot)pathoschild.stardew.modbuildconfig\4.0.1\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
+    <Import Project="$(NuGetPackageRoot)ilasm\4.700.2\build\net\ILAsm.targets" Condition="Exists('$(NuGetPackageRoot)ilasm\4.700.2\build\net\ILAsm.targets')" />
   </ImportGroup>
 </Project>

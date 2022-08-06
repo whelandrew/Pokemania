@@ -1,0 +1,4329 @@
+{
+	"Changes": [
+		{
+			"LogName": "Slowpoke",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Slowpoke.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 331,
+				"Y": 480,
+				"Width": 32,
+				"Height": 32
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Altaria",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Altaria.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 128,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Zapdos",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Zapdos.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 74,
+				"Y": 49,
+				"Width": 48,
+				"Height": 48
+			},
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 3
+		},
+		{
+			"LogName": "Moltress",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Moltress.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 203,
+				"Y": 117,
+				"Width": 48,
+				"Height": 48
+			},
+			"PatchMode": "Overlay",
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Articuno",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Articuno.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 316,
+				"Y": 61,
+				"Width": 48,
+				"Height": 48
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "TrainAnimals",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainAnimals.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 576,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_01",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 672,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_02",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 640,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_03",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 640,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_04",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_04.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 352,
+				"Y": 608,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_05",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_05.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 576,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TrainGraffiti_06",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/TrainGraffiti_06.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 704,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Zubat",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Zubat.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 640,
+				"Y": 1664,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Pokeballs",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Pokeballs.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 59,
+				"Height": 11
+			},
+			"ToArea": {
+				"X": 370,
+				"Y": 32,
+				"Width": 59,
+				"Height": 11
+			}
+		},
+		{
+			"LogName": "Mew",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Mew.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 58,
+				"Height": 21
+			},
+			"ToArea": {
+				"X": 362,
+				"Y": 86,
+				"Width": 58,
+				"Height": 21
+			}
+		},
+		{
+			"LogName": "Chingling_02",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Chingling_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 192,
+				"Height": 28
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 147,
+				"Width": 192,
+				"Height": 28
+			}
+		},
+		{
+			"LogName": "Chingling_01",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Chingling_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 112,
+				"Height": 15
+			},
+			"ToArea": {
+				"X": 52,
+				"Y": 147,
+				"Width": 112,
+				"Height": 15
+			}
+		},
+		{
+			"LogName": "Tangella",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Tangella.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 30
+			},
+			"ToArea": {
+				"X": 127,
+				"Y": 687,
+				"Width": 16,
+				"Height": 30
+			}
+		},
+		{
+			"LogName": "Drifloon",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Drifloon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 640,
+				"Y": 768,
+				"Width": 64,
+				"Height": 18
+			}
+		},
+		{
+			"LogName": "Drifblim",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Drifblim.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 84,
+				"Height": 143
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 1182,
+				"Width": 84,
+				"Height": 143
+			}
+		},
+		{
+			"LogName": "Voltorb",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Voltorb.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 63,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 289,
+				"Y": 1182,
+				"Width": 63,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Farfetchd",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Farfetchd.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 22,
+				"Height": 22
+			},
+			"ToArea": {
+				"X": 182,
+				"Y": 1428,
+				"Width": 22,
+				"Height": 22
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Rhyhorn01",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Rhyhorn01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 24
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 1424,
+				"Width": 48,
+				"Height": 24
+			}
+		},
+		{
+			"LogName": "Misdreavus_02",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Misdreavus_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 21,
+				"Height": 55
+			},
+			"ToArea": {
+				"X": 282,
+				"Y": 1885,
+				"Width": 21,
+				"Height": 55
+			}
+		},
+		{
+			"LogName": "Houndoom",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Houndoom.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 72,
+				"Height": 40
+			},
+			"ToArea": {
+				"X": 323,
+				"Y": 1916,
+				"Width": 72,
+				"Height": 40
+			}
+		},
+		{
+			"LogName": "Pelipper",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Pelipper.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 144,
+				"Height": 21
+			},
+			"ToArea": {
+				"X": 388,
+				"Y": 1894,
+				"Width": 144,
+				"Height": 21
+			}
+		},
+		{
+			"LogName": "Lopad",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Lopad.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 1920,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_01",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 79,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 128,
+				"Y": 80,
+				"Width": 79,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_02",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 128,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 80,
+				"Width": 128,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_03",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 380,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 96,
+				"Width": 380,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_04",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_04.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 46,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 50,
+				"Y": 176,
+				"Width": 46,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_05",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_05.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 79,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 32,
+				"Y": 464,
+				"Width": 79,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_06",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_06.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 480,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_07",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_07.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 528,
+				"Width": 96,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_08",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_08.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 544,
+				"Width": 48,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_09",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_09.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_10",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_10.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Fish_14",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Fish_14.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 79,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 304,
+				"Y": 464,
+				"Width": 79,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Lapras",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/Lapras.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 255,
+				"Y": 180,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Krabby",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/Krabby.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 352,
+				"Y": 180,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Staryu",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/Staryu.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 447,
+				"Y": 180,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Hippowdon",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/Hippowdon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 128,
+				"Y": 180,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Potion",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Potion.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 96,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Food_01",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Food_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 15,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 128,
+				"Width": 15,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Junk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Junk.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 112,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Nanab",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Nanab.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 304,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "NanabTree",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/NanabTree.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 32,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Exeggutor",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Exeggutor.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Eggxeggutor",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Exeggutor.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Torchic",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Torchic.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Egg.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Spelon",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Spelon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Tamato",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Tamato.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Watmel",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Watmel.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Morelull",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Morelull.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Foongus",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Foongus.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Frillish",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Frillish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 16,
+				"Width": 96,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Spinarak",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Spinarak.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Jynx",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Jynx.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 32,
+				"Y": 32,
+				"Width": 16,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Fish_10",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Fish_10.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 431,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "FishBox",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/FishBox.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 464,
+				"Y": 55,
+				"Width": 48,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Castform_02",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Castform_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 31,
+				"Height": 31
+			},
+			"ToArea": {
+				"X": 303,
+				"Y": 160,
+				"Width": 31,
+				"Height": 31
+			}
+		},
+		{
+			"LogName": "Castform_01",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Castform_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 31,
+				"Height": 31
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 16,
+				"Width": 31,
+				"Height": 31
+			}
+		},
+		{
+			"LogName": "Gengar",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Gengar.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 336,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "MeowthMachine",
+			"Action": "EditImage",
+			"Target": "Maps/DesertTiles",
+			"FromFile": "assets/MeowthMachine.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 191,
+				"Y": 287,
+				"Width": 32,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Salamance",
+			"Action": "EditImage",
+			"Target": "Maps/DesertTiles",
+			"FromFile": "assets/Salamance.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 64
+			},
+			"ToArea": {
+				"X": 31,
+				"Y": 239,
+				"Width": 64,
+				"Height": 64
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Sandshrew",
+			"Action": "EditImage",
+			"Target": "Maps/DesertTiles",
+			"FromFile": "assets/Sandshrew.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 335,
+				"Width": 32,
+				"Height": 32
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 5
+		},
+		{
+			"LogName": "Emily",
+			"Action": "EditImage",
+			"Target": "Characters/Emily",
+			"FromFile": "assets/Emily.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 224,
+				"Width": 48,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "SecretNotesImages",
+			"Action": "EditImage",
+			"Target": "TileSheets/SecretNotesImages",
+			"FromFile": "assets/SecretNotesImages.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 60,
+				"Height": 52
+			},
+			"ToArea": {
+				"X": 129,
+				"Y": 65,
+				"Width": 60,
+				"Height": 52
+			}
+		},
+		{
+			"LogName": "Clefairy",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Clefairy.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 352,
+				"Width": 32,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Bellossom",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Bellossom.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 128,
+				"Y": 32,
+				"Width": 32,
+				"Height": 32
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 4
+		},
+		{
+			"LogName": "Bronzor",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Bronzor.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 112,
+				"Width": 48,
+				"Height": 48
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Chimecho",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Chimecho.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 0,
+				"Width": 48,
+				"Height": 32
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Frillish",
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Frillish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 16,
+				"Width": 96,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Pinap",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Pinap.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 256,
+				"Y": 544,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Oran",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Oran.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 176,
+				"Y": 416,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "springPokemart",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/springPokemart.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 92,
+				"Height": 112
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 208,
+				"Width": 92,
+				"Height": 112
+			}
+		},
+		{
+			"LogName": "springTownCenterpiece",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/springTownCenterpiece.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 464,
+				"Width": 48,
+				"Height": 48
+			},
+			"AnimationFrameTime": 16,
+			"AnimationFrameCount": 4
+		},
+		{
+			"LogName": "PokeCenter",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/PokeCenter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 80,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 224,
+				"Width": 80,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "OttselSeat",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/OttselSeat.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 162,
+				"Y": 527,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Solrok_02",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 15,
+				"Y": 90,
+				"Width": 18,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Solrok_01",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 15,
+				"Y": 90,
+				"Width": 18,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Rowlet",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Rowlet.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 13,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 305,
+				"Y": 78,
+				"Width": 13,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "TownSquare",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/TownSquare.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 96
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 416,
+				"Width": 96,
+				"Height": 96
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Noctowl_02",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Noctowl_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 592,
+				"Width": 96,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Noctowl_01",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Noctowl_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 112,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 512,
+				"Width": 112,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Cherrim01",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "assets/Cherrim01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 384,
+				"Y": 16,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "winterTownCenterpiece",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/winterTownCenterpiece.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 80
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 432,
+				"Width": 48,
+				"Height": 80
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "winterPokemart",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/winterPokemart.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 92,
+				"Height": 111
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 208,
+				"Width": 92,
+				"Height": 111
+			}
+		},
+		{
+			"LogName": "PokeCenter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/PokeCenter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 80,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 224,
+				"Width": 80,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "OttselSeatWinter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/OttselSeatWinter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 160,
+				"Y": 529,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Solrok_01",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 15,
+				"Y": 90,
+				"Width": 18,
+				"Height": 16
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "SolrokWinter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/SolrokWinter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 198,
+				"Y": 560,
+				"Width": 18,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "RowletWinter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/Rowlet.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 13,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 305,
+				"Y": 78,
+				"Width": 13,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "TownSquareWinter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/TownSquare.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 96
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 416,
+				"Width": 96,
+				"Height": 96
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "NoctowlWinter_02",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/NoctowlWinter_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 592,
+				"Width": 96,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "NoctowlWinter_01",
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "assets/NoctowlWinter_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 128,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 512,
+				"Width": 128,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Apicotberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Apicotberry.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 192,
+				"Y": 416,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Lumberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Lumberry.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 352,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Shroomish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Shroomish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 352,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Cherubi",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Cherubi.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 416,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 120,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Shellder",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Shellder.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 192,
+				"Y": 240,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 300,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Pineco",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Pineco.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 120,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "AnorinthCocktail",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/AnorinthCocktail.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Staryu02",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Staryu02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 320,
+				"Y": 64,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 4
+		},
+		{
+			"LogName": "Pincurchin",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Pincurchin.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 120,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Seedot",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Seedot.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 120,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Cacnea",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Cacnea.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 288,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Omanyte",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Omanyte.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Corsola",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Corsola.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 144,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+			},
+			"AnimationFrameTime": 180,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "TownSquareSummer",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/TownSquare.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 96
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 416,
+				"Width": 96,
+				"Height": 96
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "summerPokemart",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/summerPokemart.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 92,
+				"Height": 112
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 208,
+				"Width": 92,
+				"Height": 112
+			}
+		},
+		{
+			"LogName": "summerTownCenterpiece_02",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/summerTownCenterpiece_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 38,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 369,
+				"Y": 432,
+				"Width": 38,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "summerTownCenterpiece_01",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/summerTownCenterpiece_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 64
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 448,
+				"Width": 48,
+				"Height": 64
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "PokeCenter",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/PokeCenter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 80,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 224,
+				"Width": 80,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "OttselSeat",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/OttselSeat.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 29,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 162,
+				"Y": 527,
+				"Width": 29,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Solrok_02",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 14,
+				"Y": 90,
+				"Width": 18,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Solrok_01",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 197,
+				"Y": 560,
+				"Width": 18,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Rowlet_Summer",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Rowlet.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 13,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 305,
+				"Y": 78,
+				"Width": 13,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Noctowl_02",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Noctowl_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 92,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 592,
+				"Width": 92,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Noctowl_01",
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "assets/Noctowl_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 112,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 512,
+				"Width": 112,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Unown",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Unown.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 296,
+				"Height": 116
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 187,
+				"Width": 296,
+				"Height": 116
+			}
+		},
+		{
+			"LogName": "Unown_02",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Unown_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 44,
+				"Height": 25
+			},
+			"ToArea": {
+				"X": 8,
+				"Y": 458,
+				"Width": 44,
+				"Height": 25
+			}
+		},
+		{
+			"LogName": "Togekiss",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Togekiss.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 104,
+				"Height": 21
+			},
+			"ToArea": {
+				"X": 296,
+				"Y": 227,
+				"Width": 104,
+				"Height": 21
+			}
+		},
+		{
+			"LogName": "MewTwo",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/MewTwo.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 167,
+				"Height": 67
+			},
+			"ToArea": {
+				"X": 177,
+				"Y": 376,
+				"Width": 167,
+				"Height": 67
+			}
+		},
+		{
+			"LogName": "Castform_Title",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Castform_Title.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 264,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 136,
+				"Y": 464,
+				"Width": 264,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "fallPokemart",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/fallPokemart.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 86,
+				"Height": 112
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 208,
+				"Width": 86,
+				"Height": 112
+			}
+		},
+		{
+			"LogName": "PokeCenter",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/PokeCenter.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 80,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 224,
+				"Width": 80,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "OttselSeat",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/OttselSeat.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 162,
+				"Y": 527,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Solrok_02",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 14,
+				"Y": 90,
+				"Width": 18,
+				"Height": 18
+			}
+		},
+		{
+			"LogName": "Solrok_01",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Solrok_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 197,
+				"Y": 560,
+				"Width": 18,
+				"Height": 18
+			}
+		},
+		{
+			"LogName": "Rowlet",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Rowlet.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 13,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 305,
+				"Y": 78,
+				"Width": 13,
+				"Height": 18
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "fallTownSquare",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/TownSquare.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 96
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 416,
+				"Width": 96,
+				"Height": 96
+			},
+			"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Noctowl_04",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Noctowl_04.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 512,
+				"Width": 96,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "MrMime_02Spring",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 704,
+				"Width": 32,
+				"Height": 16
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 3
+		},
+		{
+			"LogName": "Noctowl_03",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/Noctowl_03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 112,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 208,
+				"Y": 512,
+				"Width": 112,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Abra",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet",
+			"FromFile": "assets/Abra.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 512,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "MrMime_02Fall",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 704,
+				"Width": 32,
+				"Height": 16
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 3
+		},
+		{
+			"LogName": "MrMime_01",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 240,
+				"Y": 688,
+				"Width": 32,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Lopad",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/Lopad.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 288,
+				"Y": 816,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Abra",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorsTileSheet",
+			"FromFile": "assets/Abra.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 512,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "MrMime_02Winter",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 704,
+				"Width": 32,
+				"Height": 16
+			},
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 3
+		},
+		{
+			"LogName": "MrMime_01",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 240,
+				"Y": 688,
+				"Width": 32,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "Lopad",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/Lopad.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 288,
+				"Y": 816,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Abra",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/Abra.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 512,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "VileBloom",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/VileBloom.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 15
+			},
+			"ToArea": {
+				"X": 337,
+				"Y": 106,
+				"Width": 27,
+				"Height": 15
+			}
+		},
+		{
+			"LogName": "Manaphy",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Manaphy.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 27,
+				"Height": 27
+			},
+			"ToArea": {
+				"X": 975,
+				"Y": 90,
+				"Width": 27,
+				"Height": 27
+			}
+		},
+		{
+			"LogName": "Rhyhorn02",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Rhyhorn02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 29,
+				"Height": 27
+			},
+			"ToArea": {
+				"X": 707,
+				"Y": 62,
+				"Width": 29,
+				"Height": 27
+			}
+		},
+		{
+			"LogName": "Rhyhorn02",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Rhyhorn02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 29,
+				"Height": 27
+			},
+			"ToArea": {
+				"X": 547,
+				"Y": 62,
+				"Width": 29,
+				"Height": 27
+			}
+		},
+		{
+			"LogName": "Rotom",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Rotom.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 976,
+				"Y": 175,
+				"Width": 96,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Lanturn_02",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Lanturn_02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 271,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Lanturn_01",
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "assets/Lanturn_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 47,
+				"Y": 127,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "MrMime_01",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet",
+			"FromFile": "assets/MrMime_01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 704,
+				"Width": 32,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "fallTownCenterpiece",
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "assets/fallTownCenterpiece.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 64
+			},
+			"ToArea": {
+				"X": 368,
+				"Y": 448,
+				"Width": 48,
+				"Height": 64
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Clefable",
+			"Action": "EditImage",
+			"Target": "Minigames/TitleButtons",
+			"FromFile": "assets/Clefable.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 378,
+				"Height": 68
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 492,
+				"Width": 378,
+				"Height": 68
+			}
+		},
+		{
+			"LogName": "Koffing",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Koffing.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 1024,
+				"Width": 32,
+				"Height": 32
+			},
+			"AnimationFrameTime": 90,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Oddish",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Oddish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 480,
+				"Y": 960,
+				"Width": 32,
+				"Height": 32
+			},
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Smeargle",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Smeargle.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 352,
+				"Y": 560,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Ursaring",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Ursaring.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 64
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 688,
+				"Width": 32,
+				"Height": 64
+			}
+		},
+		{
+			"LogName": "ShinyP",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/ShinyP.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 14
+			},
+			"ToArea": {
+				"X": 128,
+				"Y": 624,
+				"Width": 16,
+				"Height": 14
+			}
+		},
+		{
+			"LogName": "Pangoro",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Pangoro.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 640,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Pancham",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Pancham.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Tangella",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Tangella.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 30
+			},
+			"ToArea": {
+				"X": 351,
+				"Y": 528,
+				"Width": 16,
+				"Height": 30
+			}
+		},
+		{
+			"LogName": "Machoke",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Machoke.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 287,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Marowak",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Marowak.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 319,
+				"Y": 384,
+				"Width": 64,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Spinda",
+			"Action": "EditImage",
+			"Target": "Maps/SewerTiles",
+			"FromFile": "assets/Spinda.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 30,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 144,
+				"Width": 30,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "HarveyBalloon",
+			"Action": "EditImage",
+			"Target": "Maps/HarveyBalloonTiles",
+			"FromFile": "assets/HarveyBalloon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 93,
+				"Height": 106
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 93,
+				"Height": 106
+			}
+		},
+		{
+			"LogName": "Pidgey",
+			"Action": "EditImage",
+			"Target": "MiniGames/Intro",
+			"FromFile": "assets/Pidgey.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 95,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 64,
+				"Width": 95,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Venusaur",
+			"Action": "EditImage",
+			"Target": "MiniGames/Intro",
+			"FromFile": "assets/Venusaur.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 62,
+				"Height": 57
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 178,
+				"Width": 62,
+				"Height": 57
+			},
+			"AnimationFrameTime": 400,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "Pidgey",
+			"Action": "EditImage",
+			"Target": "MiniGames/Intro",
+			"FromFile": "assets/Pidgey.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 95,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 64,
+				"Width": 95,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "MissingNo",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/MissingNo.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Noctowl",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Noctowl.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 352,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Regice",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Regice.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 352,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Elgyem",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Elgyem.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 96,
+				"Y": 480,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Statues",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Statues.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 191,
+				"Width": 64,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Buneary",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Buneary.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 448,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Misdreavus",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Misdreavus.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 16,
+				"Y": 448,
+				"Width": 16,
+				"Height": 32
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 2
+		},
+		{
+			"LogName": "GoldMeowth",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/GoldMeowth.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 480,
+				"Width": 16,
+				"Height": 29
+			}
+		},
+		{
+			"LogName": "IridiumMeowth",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/IridiumMeowth.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Sentrent",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Sentrent.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 544,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "StatueNatu",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/StatueNatu.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 15,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 96,
+				"Width": 15,
+				"Height": 29
+			}
+		},
+		{
+			"LogName": "Loudred",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Loudred.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 32,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Mimikyu",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Mimikyu.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Combusken",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Combusken.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 400,
+				"Y": 640,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Eggxecutor",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Eggxecutor.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 224,
+				"Y": 641,
+				"Width": 16,
+				"Height": 48
+			}
+		},
+		{
+			"LogName": "PanchamFurniture",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Pancham.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 672,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Paintings",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Paintings.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 415,
+				"Height": 31
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 769,
+				"Width": 415,
+				"Height": 31
+			}
+		},
+		{
+			"LogName": "Paintings02",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Paintings02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 918,
+				"Width": 64,
+				"Height": 18
+			}
+		},
+		{
+			"LogName": "Porygon",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Porygon.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 29
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 800,
+				"Width": 32,
+				"Height": 29
+			}
+		},
+		{
+			"LogName": "Pangoro",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Pangoro.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 831,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Ursaring",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Ursaring.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 64
+			},
+			"ToArea": {
+				"X": 111,
+				"Y": 831,
+				"Width": 32,
+				"Height": 64
+			}
+		},
+		{
+			"LogName": "CastformFurniture",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Castform.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 80,
+				"Y": 864,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "TangellaFurniture",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Tangella.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 30
+			},
+			"ToArea": {
+				"X": 416,
+				"Y": 640,
+				"Width": 16,
+				"Height": 30
+			}
+		},
+		{
+			"LogName": "Sunflora02",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Sunflora02.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 46
+			},
+			"ToArea": {
+				"X": 336,
+				"Y": 976,
+				"Width": 32,
+				"Height": 46
+			}
+		},
+		{
+			"LogName": "Buneary01",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Buneary01.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 880,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Politoed",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Politoed.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 448,
+				"Y": 1152,
+				"Width": 32,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Pachirisu",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Pachirisu.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 480,
+				"Y": 1392,
+				"Width": 16,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Pumpkaboo_03",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/Pumpkaboo_03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 464,
+				"Y": 944,
+				"Width": 16,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "CastformPlushes",
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/CastformPlushes.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 16
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 880,
+				"Width": 64,
+				"Height": 16
+			}
+		},
+		{
+			"LogName": "Remoraid",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Remoraid.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 84,
+				"Height": 28
+			},
+			"ToArea": {
+				"X": 172,
+				"Y": 33,
+				"Width": 84,
+				"Height": 28
+			}
+		},
+		{
+			"LogName": "Chatot_03",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Chatot_03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 42,
+				"Height": 28
+			},
+			"ToArea": {
+				"X": 148,
+				"Y": 62,
+				"Width": 42,
+				"Height": 28
+			}
+		},
+		{
+			"LogName": "Trubbish",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Trubbish.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 67,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 39,
+				"Y": 0,
+				"Width": 67,
+				"Height": 32
+			}
+		},
+		{
+			"LogName": "Tortera",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Tortera.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 104,
+				"Height": 53
+			},
+			"ToArea": {
+				"X": 152,
+				"Y": 94,
+				"Width": 104,
+				"Height": 53
+			}
+		},
+		{
+			"LogName": "Snorlax",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Snorlax.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 92,
+				"Height": 56
+			},
+			"ToArea": {
+				"X": 0,
+				"Y": 80,
+				"Width": 92,
+				"Height": 56
+			}
+		},
+		{
+			"LogName": "Bellsprout",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "assets/Bellsprout.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 18,
+				"Height": 18
+			},
+			"ToArea": {
+				"X": 196,
+				"Y": 166,
+				"Width": 18,
+				"Height": 18
+			},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 4
+		},
+		{
+			"LogName": "Rhyhorn03",
+			"Action": "EditImage",
+			"Target": "Maps/Festival",
+			"FromFile": "assets/Rhyhorn03.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 24
+			},
+			"ToArea": {
+				"X": 272,
+				"Y": 488,
+				"Width": 48,
+				"Height": 24
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/GemBird",
+			"FromFile": "assets/GemBird.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/cowPhotosWinter",
+			"FromFile": "assets/cowPhotosWinter.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/SeaMonster",
+			"FromFile": "assets/SeaMonster.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/submarine_tilesheet",
+			"FromFile": "assets/submarine_tilesheet.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "assets/AquariumFish.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/cowPhotos",
+			"FromFile": "assets/cowPhotos.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "MiniGames/submarine_tilesheet",
+			"FromFile": "assets/submarine_tilesheet.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "TileSheets/critters",
+			"FromFile": "assets/critters.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Bear",
+			"FromFile": "assets/Bear.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portrait/Bear",
+			"FromFile": "assets/Bear_Portrait.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Armored Bug",
+			"FromFile": "assets/Armored Bug.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Bat",
+			"FromFile": "assets/Bat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Carbon Ghost",
+			"FromFile": "assets/Carbon Ghost.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Duggy",
+			"FromFile": "assets/Duggy.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Dust Spirit",
+			"FromFile": "assets/Dust Spirit.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Fly",
+			"FromFile": "assets/Fly.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Frost Bat",
+			"FromFile": "assets/Frost Bat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Ghost",
+			"FromFile": "assets/Ghost.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Green Slime",
+			"FromFile": "assets/Green Slime.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Grub",
+			"FromFile": "assets/Grub.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Iridium Bat",
+			"FromFile": "assets/Iridium Bat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Iridium Crab",
+			"FromFile": "assets/Iridium Crab.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Lava Bat",
+			"FromFile": "assets/Lava Bat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Lava Crab",
+			"FromFile": "assets/Lava Crab.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Metal Head",
+			"FromFile": "assets/Metal Head.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Bat",
+			"FromFile": "assets/Bat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Mummy",
+			"FromFile": "assets/Mummy.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Rock Crab",
+			"FromFile": "assets/Rock Crab.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Serpent",
+			"FromFile": "assets/Serpent.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Shadow Brute",
+			"FromFile": "assets/Shadow Brute.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Shadow Shaman",
+			"FromFile": "assets/Shadow Shaman.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Skeleton",
+			"FromFile": "assets/Skeleton.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Squid Kid",
+			"FromFile": "assets/Squid Kid.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Stone Golem",
+			"FromFile": "assets/Stone Golem.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Monsters/Wilderness Golem",
+			"FromFile": "assets/Wilderness Golem.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyBlue Chicken",
+			"FromFile": "assets/BabyBlue Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyBrown Chicken",
+			"FromFile": "assets/BabyBrown Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyBrown Cow",
+			"FromFile": "assets/BabyBrown Cow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyPig",
+			"FromFile": "assets/BabyPig.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyRabbit",
+			"FromFile": "assets/BabyRabbit.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabySheep",
+			"FromFile": "assets/BabySheep.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyVoid Chicken",
+			"FromFile": "assets/BabyVoid Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyWhite Chicken",
+			"FromFile": "assets/BabyWhite Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Blue Chicken",
+			"FromFile": "assets/Blue Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyWhite Cow",
+			"FromFile": "assets/BabyWhite Cow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Brown Chicken",
+			"FromFile": "assets/Brown Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Brown Cow",
+			"FromFile": "assets/Brown Cow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/cat",
+			"FromFile": "assets/cat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/cat1",
+			"FromFile": "assets/cat1.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/cat2",
+			"FromFile": "assets/cat2.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Dinosaur",
+			"FromFile": "assets/Dinosaur.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/dog",
+			"FromFile": "assets/dog.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/dog1",
+			"FromFile": "assets/dog1.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/dog2",
+			"FromFile": "assets/dog2.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Duck",
+			"FromFile": "assets/Duck.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Goat",
+			"FromFile": "assets/Goat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/BabyGoat",
+			"FromFile": "assets/BabyGoat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/horse",
+			"FromFile": "assets/horse.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Pig",
+			"FromFile": "assets/Pig.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Rabbit",
+			"FromFile": "assets/Rabbit.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/ShearedSheep",
+			"FromFile": "assets/ShearedSheep.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Sheep",
+			"FromFile": "assets/Sheep.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/Void Chicken",
+			"FromFile": "assets/Void Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/White Chicken",
+			"FromFile": "assets/White Chicken.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/White Cow",
+			"FromFile": "assets/White Cow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Shane",
+			"FromFile": "assets/Shane.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Entries": {
+				"White Chicken": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Prinplup/Coop",
+				"Brown Chicken": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Xatu/Coop",
+				"Blue Chicken": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Combusken/Coop",
+				"Void Chicken": "1/3/305/305/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/800/Banette/Coop",
+				"Duck": "2/5/442/444/Psyduck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/1200/Psyduck/Coop",
+				"Rabbit": "4/6/440/446/Nidoran/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/10/5/null/643/8000/Shaymin/Coop",
+				"Dinosaur": "7/0/107/100/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Bagon/Coop",
+				"White Cow": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Hippowdon/Barn",
+				"Brown Cow": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Piloswine/Barn",
+				"Goat": "2/5/436/438/Gogoat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/4000/Gogoat/Barn",
+				"Pig": "1/10/430/100/Grumpig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Pig/Barn",
+				"Sheep": "3/4/440/100/Mareep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Flanfy/Barn"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TV/CookingChannel",
+			"Entries": {
+				"10": "Phione Soup/Phione Soup! There's something about fresh-caught Phione that just gets me buzzing. Maybe it's the subtle taste of the river. At any rate, I've got a wonderful Phione soup recipe to share with you today...",
+				"21": "Magikarp Surprise/Hey, ever have a bunch of Magikarp laying around and no idea what to do with them? Yeah, me too. Well, I've devised a great solution to this all-too-common problem. I call it... Magikarp surprise. It's quite easy to make, but you'll need a lot of Magikarp...",
+				"24": "Roasted Chestis/Roasted Chestis! I've got a nice old hazelnut tree behind my house, and every year I invite the family over for a nut roasting party! Once we start roasting, it's inevitable that the neighbors will show up. That rich, nutty smell is irresistable. Now, here's the family recipe...",
+				"27": "Krabby Cakes/Krabby Cakes! Krabby meat is very flimsy on its own, but mixing it with bread crumbs and egg is a great way to give them some body. That's why these cakes are my favorite way to eat crab! But before you go cracking any shells, stay tuned for my essential seasoning mixture...",
+				"30": "Corphis Bisque / Corphis Bisque!You could serve this one to the governor himself. It's rich, creamy and delicious, with just the right amount of oceanic flavor. The hardest part is finding some lobster, but I'm sure you can do it.Heck, if you're feeling crafty you could catch one yourself with a Corphis pot!"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"fall_6_2": "Wanted: 1 Fresh Corphish for a marvelous bisque I'm creating.^Who: Gus, proprieter of the Stardrop Saloon^Reward: 800g %item quest 121 %%",
+				"spring_6_2": "@-^I'm really craving a fresh Apicot. I haven't been able to find one at the store, so I'm asking you. I'll pay you well for it!^   -Emily%item quest 115 %%",
+				"fall_3_1": "Dear @,^I'd like to give my Piloswines a special treat. They're such good girls and hungry, too. Could you bring me one bunch of amaranth? They love the stuff. ^Thanks, Dear.^   -Marnie %item quest 106 %%",
+				"fall_8_1": "Hello,^It's Belue season right now. The bushes are full of them. I want to pick some, but I lost my basket. Can you help?^   -Linus%item quest 107 %%",
+				"fall_26": "Dear @,^Notice a chill in the air? It could just be the approach of winter...^Or it could be the tingle of a dark specter, here to help us celebrate tomorrow's festival... the Gourgeist Festival.^Come to town at 10 PM if you'd like to participate.^  -Mayor Lewis",
+				"spring_23": "Dear @,^Tomorrow we're all getting together for the Feather Carnival.^^If you can find a partner, you might even want to participate in the dance yourself!^There's a little clearing beyond the forest west of town where we hold the dance. Arrive between 9 AM and 2 PM if you're interested.^  -Mayor Lewis",
+				"winter_2_1": "Wanted: 1 Fresh Corphish for a marvelous bisque I'm creating.^Who: Gus, proprieter of the Stardrop Saloon^Reward: 800g %item quest 121 %%",
+				"guildQuest": "Wanted: 1 Fresh Corphish for a marvelous bisque I'm creating.^Who: Gus, proprieter of the Stardrop Saloon^Reward: 800g %item quest 121 %%",
+				"winter_2_1": "Hey, I've got a little challenge for you:^    Catch me a Inkay.^You can fish them from the ocean at night. They only show up in the winter, though.^   -Willy%item quest 109 %%",
+				"winter_26_1": "Dear @-^I want to make fish stew, but I need a Totodile! I know they're almost out of season... sorry about the short notice. Could you catch one for me?^   -Gus%item quest 114 %%",
+				"winter_13_2": "I've got another challenge for you: Catch me a Shiny Remoraid.^They don't go down easy, but I know you can do it.^  -Willy%item quest 124 %%",
+				"summer_28": "Dear @,^Tonight at around 10 o'clock PM, a rare and beautiful event will take place.^^The Frillish will be passing by Pelican Town on their long journey south for the winter.^^We're all gathering at the beach to watch. You don't want to miss this!^See you tonight,^ -Demetrius",
+				"summer_6_2": "Fisherman Wanted^I need a good Quilfish specimen. I'm conducting an experiment on the toxin created by the Quilfish.^Reward: 1000g^ -Demetrius%item quest 118 %%"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftablesInformation",
+			"Entries": {
+				"161": "Missing No/0/-300/Crafting -9/Missing No/true/true/0/Missing No",
+				"155": "Venus De Loudred/0/-300/Crafting -9/Venus De Loudred/true/true/0/Venus De Loudred",
+				"167": "Mimikyu/50/-300/Crafting -9/Prevents crows and Pikachus from attacking your crops. Has a large radius (about 16 \"tiles\")./true/true/0/Mimikyu",
+				"101": "Incubator/0/-300/Crafting -9/Hatches eggs into baby Flying Types and Psyducks./true/false/2/Incubator",
+				"95": "Stone Noctowl/50/-300/Crafting -9/Garden art for your farm./true/true/0/Stone Noctowl",
+				"54": "Stone Honchcrow/50/-300/Crafting -9/Garden art for your farm./true/true/0/Stone Honchcrow",
+				"53": "Stone Dodrio/50/-300/Crafting -9/Garden art for your farm./true/true/0/Stone Dodrio",
+				"52": "Stone Politoed/50/-300/Crafting -9/Garden art for your farm./true/true/0/Stone Politoed",
+				"107": "Plush Buneary/0/-300/Crafting -9/It's big, it's soft, and it's cute./false/true/0/Plush Buneary",
+				"31": "Natu Statue/50/-300/Crafting -9/A wooden statue of a Natu./true/true/0/Natu Statue"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"1541": "\"Umbreon Of Eco-Hill\"/painting/2 2/2 2/1/1000",
+				"1563": "\"Lunatone Street\"/painting/2 2/2 2/1/800",
+				"2584": "\"Jade Hills Mew\"/painting/4 2/4 2/1/6750",
+				"1554": "\"Jade Hills Mew\"/painting/3 2/3 2/1/1750",
+				"1453": "\"Path To Drowzee\"/painting/2 2/2 2/1/750",
+				"1547": "\"Lapras of the Gem Sea\"/painting/3 2/3 2/1/1200",
+				"1557": "\"Solrock #44\"/painting/2 2/2 2/1/800",
+				"1539": "\"The Wailmer\"/painting/2 2/2 2/1/1000",
+				"1850": "\"The Ekans\"/painting/2 2/2 2/1/1000",
+				"1852": "\"Fineons #173\"/painting/2 2/2 2/1/1000",
+				"1607": "\"Porygon  Paradise\"/painting/2 2/2 2/1/1200",
+				"1671": "\"Ursaring Statue\"/decor/2 4/2 1/1/4000",
+				"1305": "\"Combusken Statue\"/decor/1 2/1 1/1/500",
+				"1307": "Dried Sunflora/decor/1 2/1 1/1/500",
+				"1365": "Futan Panchan/decor/1 1/1 1/1/1500",
+				"1764": "Futan Buneary/decor/1 1/1 1/1/1500",
+				"2332": "Mr Mime Statue/decor/2 2/2 1/1/500",
+				"1294": "Alolan Exeggutor/decor/1 3/1 1/1/600",
+				"1733": "Castform Plush/decor/2 2/2 1/1/4000",
+				"1306": "Tangela Sculpture/decor/1 2/1 1/1/500",
+				"1669": "Lg. Futan Pancham/decor/2 2/2 1/1/4000",
+				"2814": "Pachirisu Figurine/decor/1 1/1 1/1/500",
+				"1917": "Wall Pumpkaboo/painting/1 2/1 2/1/750"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Entries": {
+				"128": "Quilfish/200/-40/Fish -4/Quilfish/In order to attack the enemy all over the body with its poisonous sting, the Qwilfish has to take in a lot of water and expand up to several times of its actual size./Day^Summer",
+				"129": "Wishiwashi/200/-40/Fish -4/Wishiwashi/When it's in trouble, its eyes moisten and begin to shine./Day Night^Spring Fall",
+				"130": "Remoraid/100/15/Fish -4/Remoraid/Often found in large groups, Remoraid can fire water and hit targets up to 100 meters away./Day^Summer Winter",
+				"131": "Tynamo/105/12/Fish -4/Tynamo/These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.Day^Spring Summer Fall Winter",
+				"132": "Feebas/45/5/Fish -4/Feebas/Although extremely ragged, it is a tough Pokémon that can live in almost any kind of water./Night^Spring Summer Fall Winter",
+				"136": "Blue-Striped Basculin/45/15/Fish -4/Blue-Striped Basculin/Blue-Striped Basculin used to be a common food source. They apparently have an inoffensive, light flavor./Night^Spring Summer Fall Winter",
+				"137": "White-Striped Basculin/45/15/Fish -4/White-Striped Basculin/Though it differs from other Basculin in several respects, including demeanor—this one is gentle./Day Night^Spring Summer Fall Winter",
+				"139": "Barraskewda/700/20/Fish -4/Barraskewda/This Pokémon has a jaw that's as sharp as a spear and as strong as steel./Day^Summer",
+				"142": "Magikarp/55/10/Fish -4/Magikarp/Because all Magikarp seem to do is splash around, some consider them weak, but they're actually a hardy Pokémon that can survive in water no matter how dirty it is./Day Night^Winter",
+				"143": "Barboach/200/20/Fish -4/Barboach/Hides in mud, leaving only its two whiskers exposed while it waits for prey to come along./Day^Spring Fall Winter",
+				"145": "Alomomola/30/5/Fish -4/Alomomola/It can use Heal Pulse to help friends recover./Day^Spring Summer",
+				"148": "Eelektrik/85/12/Fish -4/Eelektrik/They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns./Night^Spring Fall",
+				"149": "Octillery/150/-300/Fish -4/Octillery/It locks onto opponents with its leg suckers, then rams them with its rock-hard head./Day^Summer",
+				"150": "Goldeen/50/10/Fish -4/Goldeen/When the weather warms up, Goldeen form schools and swim upriver./Day^Summer Fall Winter",
+				"151": "Inkay/80/10/Fish -4/Inkay/It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place./Day^Winter",
+				"152": "Dragalge/20/5/Fish/Dragalge/Dragalge look very much like drifting kelp when they're swimming with the current./Day Night^Spring Summer Fall Winter",
+				"153": "Dragalge*/15/5/Fish/Dragalge*/Dragalge look very much like drifting algae when they're swimming with the current./Day Night^Spring Summer Fall Winter",
+				"154": "Pyukumuku/75/-10/Fish -4/Pyukumuku/Pyukumuku lives in shallow water and attacks enemies with a fist-like appendage./Day^Fall Winter",
+				"155": "Pyukumuku*/250/50/Fish -4/Pyukumuku*/It can expel its internal organs and use them to grab food or attack enemies./Night^Summer Fall",
+				"158": "Relicanth/300/-300/Fish -4/Relicanth/This species lives at the bottom of the sea for thousands of years./Day Night^Spring Summer Fall Winter",
+				"160": "Chinchou/900/10/Fish -4/Chinchou/Have the ability to conduct electrical currents from their two tentacles, which flow positive from one end and negative from the other./Day Night^Spring Summer Fall Winter",
+				"162": "Eelektros/700/20/Fish -4/Eelektros/Eelektross's mouth locks onto its opponents, where upon it delivers an electric shock./Day Night^Spring Summer Fall Winter",
+				"164": "Stunfisk/700/20/Fish -4/Stunfisk/Stunfisk hides itself in the mud and then delivers an electric jolt when its prey touches it, smiling all the while./Day Night^Spring Summer Fall Winter",
+				"165": "Magikarp/700/20/Fish -4/Magikarp/Because all Magikarp seem to do is splash around, some consider them weak, but they're actually a hardy Pokémon that can survive in water no matter how dirty it is./Day Night^Spring Summer Fall Winter",
+				"267": "Stunfisk/700/20/Fish -4/Stunfisk/Stunfisk hides itself in the mud and then delivers an electric jolt when its prey touches it, smiling all the while./Day^Spring Summer",
+				"698": "Barraskewda/700/20/Fish -4/Barraskewda/This Pokémon has a jaw that's as sharp as a spear and as strong as steel./Day^Spring Summer",
+				"699": "Barraskewda/700/20/Fish -4/Barraskewda/It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them./Day^Spring Summer",
+				"700": "Whiscash/700/20/Fish -4/Whiscash/Whiscash has strong territorial instincts and goes berserk when any enemy approaches, creating earthquakes./Day^Spring Summer",
+				"795": "Sharpedo/700/20/Fish -4/Sharpedo/Due to their sharp fangs, they're highly feared and known as \"The Gangs of the Sea.\"./Day^Spring Summer",
+				"796": "Grimer/700/20/Fish -4/Grimer/It was born when sludge in a dirty stream was exposed to X-rays from the moon./Day^Spring Summer",
+				"798": "Inkay/700/20/Fish -4/Inkay/By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee./Day^Spring Summer",
+				"799": "Mareanie/700/20/Fish -4/Mareanie/The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin./Day^Spring Summer",
+				"800": "Gulpin/700/20/Fish -4/Gulpin/Gulpin is able to swallow items of its own size whole, as its stomach comprises most of its body./Day^Spring Summer",
+				"734": "Shellos/700/20/Fish -4/Shellos/Shellos's shape and color varies depending on where it lives./Day^Spring Summer",
+				"138": "Bruxish/55/10/Fish -4/Bruxish/When the appendage on its head radiates psychic power, it gives off the sound of grinding teeth./Day Night^Winter",
+				"838": "Luvdisc/55/10/Fish -4/Luvdisc/It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love./Day Night^Winter",
+				"718": "Shelmet/50/-300/Fish -4/Shelmet/When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid./Day^Spring Summer",
+				"171": "Old TM/0/-300/Fish -20/Old TM/This was used to teach a Pokemon moves./Day Night^Spring Summer Fall Winter",
+				"167": "Potion/25/5/Fish -20/Potion/A spray-type medicine for treating wounds./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"168": "Strange Souvenir/0/-300/Fish -20/Strange Souvenir/An ornament depicting a Pokémon that is venerated as a protector in some region far from Kalos./Day Night^Spring Summer Fall Winter",
+				"775": "Arctovish/1000/10/Fish -4/Arctovish/Though it’s able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head./Day^Winter",
+				"837": "Seaking/100/15/Fish -4/S/The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest./Day^Spring Summer",
+				"445": "Caviar/500/70/Basic -26/Caviar/The cured roe of a Barraskewda. Considered to be a luxurious delicacy!",
+				"202": "Fried Inkay/150/32/Cooking -7/Fried Inkay/It's so chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"209": "Magikarp Surprise/150/36/Cooking -7/Magikarp Surprise/SURPRISE!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"212": "Barraskewda Dinner/300/50/Cooking -7/Barraskewda Dinner/The lemon spritz makes it special./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"214": "Crispy Basculin/150/36/Cooking -7/Crispy Basculin/Wow, the breading is perfect./food/0 0 0 0 0 0 0 0 64 0 0/600",
+				"219": "Phione Soup/100/40/Cooking -7/Phione Soup/The saltiness is from tears./food/0 1 0 0 0 0 0 0 0 0 0/400",
+				"225": "Fried Eel/120/30/Cooking -7/Fried Eelektross/Shockingly good!/food/0 0 0 0 1 0 0 0 0 0 0/600",
+				"226": "Spicy Eel/175/46/Cooking -7/Spicy Eelektross/It's really spicy! Be careful./food/0 0 0 0 1 0 0 0 0 1 0/600",
+				"607": "Roasted Chestis/270/70/Cooking -7/Roasted Chestis/The roasting process creates a rich forest flavor./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"611": "Bluk Cobbler/260/70/Cooking -7/Bluk Cobbler/There's nothing quite like it./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"729": "Escargot/125/90/Cooking -7/Escargot/Butter-soaked Goomies cooked to perfection./food/0 2 0 0 0 0 0 0 0 0 0/1440",
+				"730": "Corphish Bisque/205/90/Cooking -7/Corphish Bisque/This delicate soup is a secret family recipe of Willy's./food/0 3 0 0 0 0 0 50 0 0 0/1440",
+				"732": "Krabby Cakes/275/90/Cooking -7/Krabby Cakes/Krabby, bread crumbs, and egg formed into patties then fried to a golden brown./food/0 0 0 0 0 0 0 0 0 1 1/1440",
+				"442": "Psyduck Egg/95/15/Basic -5/Psyduck Egg/It's still warm.",
+				"444": "Psyduck Feather/250/-300/Basic -18/Psyduck Feather/It's so colorful.",
+				"307": "Psyduck Mayonnaise/375/-300/Basic -26/Psyduck Mayonnaise/It's a rich, yellow mayonnaise.",
+				"88": "Exeggcute/100/-300/Basic -79/Exeggcute/Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds.",
+				"791": "Exeggcute/100/-300/Basic -79/Exeggcute/Although they are the same size as other Exeggcute, the ones produced in Alola are quite heavy.",
+				"90": "Cactus Fruit/75/30/Basic -79/Cacnea/The sweet fruit of the prickly pear cactus.",
+				"802": "Cactus Seeds/0/-300/Seeds -74/Cacnea Seeds/Can only be grown indoors. Takes 12 days to mature, and then produces fruit every 3 days.",
+				"904": "Nanab Pudding/260/50/Cooking -7/Nanab Pudding/A creamy dessert with a wonderful tropical flavor./food/0 0 1 0 1 0 0 0 0 0 1/430",
+				"69": "Nanab Sapling/850/-300/Basic -74/Nanab Sapling/Takes 28 days to produce a mature Nanab tree. Bears fruit in the summer, or all year round when planted on Ginger Island.",
+				"309": "Seedot/20/-300/Crafting -74/Seedot/When it dangles from a tree branch, it looks just like an acorn.",
+				"613": "Applin/100/15/Basic -79/Applin/It hides from its natural enemies, bird Pokémon, by pretending it’s just an apple and nothing more.",
+				"633": "Applin Sapling/1000/-300/Basic -74/Applin Sapling/Takes 28 days to produce a mature Applin tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+				"234": "Belueberry Tart/150/50/Cooking -7/Belueberry Tart/It's subtle and refreshing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"481": "Belueberry Seeds/40/-300/Seeds -74/Belueberry Seeds/Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest.",
+				"258": "Belueberry/50/10/Basic -79/Belueberry/A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration.",
+				"286": "Cherubi Bomb/50/-300/Crafting -8/Cherubi Bomb/Generates a small explosion. Stand back!",
+				"628": "Cherubi Sapling/850/-300/Basic -74/Cherubi Sapling/Takes 28 days to produce a mature Cherubi tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+				"638": "Cherubi/80/15/Basic -79/Cherubi/It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball.",
+				"372": "Shellder/50/-300/Basic -23/Shellder/Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+				"404": "Foongus/40/15/Basic -81/Foongus/Slightly nutty, with good texture.",
+				"393": "Corsola/80/-300/Basic -23/Corsola/In a south-sea nation, the people live in communities that are built on groups of these Pokémon.",
+				"717": "Krabby/100/-300/Fish -4/Krabby/Its pincers are not only powerful weapons, they are used for balance when walking sideways./Day^Spring Summer",
+				"710": "Krabby Pot/50/-300/Crafting/Krabby Pot/Place it in the water, load it with bait, and check the next day to see if you've caught anything. Works in streams, lakes, and the ocean.",
+				"716": "Clauncher/75/-300/Fish -4/Clauncher/They knock down flying prey by firing compressed water from their massive claws like shooting a pistol./Day^Spring Summer",
+				"260": "Spelonberry/40/5/Basic -79/Spelonberry/Can be ground up into a powder as an ingredient for medicine.",
+				"482": "Spelonberry Seeds/20/-300/Seeds -74/Spelonberry Seeds/Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
+				"715": "Corphish/120/-300/Fish -4/Corphish/Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey./Day^Spring Summer",
+				"254": "Watmel/250/45/Basic -79/Watmel/A cool, sweet summer treat.",
+				"479": "Watmel Seeds/40/-300/Seeds -74/Watmel Seeds/Plant these in the summer. Takes 12 days to mature.",
+				"257": "Morelull/150/8/Basic -81/Morelull/Sought after for its unique nutty flavor.",
+				"719": "Clamperl/30/-300/Fish -4/Clamperl/It clamps down on its prey with both sides of its shell and doesn’t let go until they stop moving./Day^Spring Summer",
+				"392": "Omanyte/120/-300/Basic -23/Omanyte/Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people.",
+				"586": "Omanyte Fossil/80/-300/Arch/Omanyte Fossil/This must've washed up ages ago from an ancient coral reef. /Beach .03",
+				"635": "Oranberry/100/15/Basic -79/Oranberry/Juicy, tangy, and bursting with sweet summer aroma.",
+				"630": "Oranberry Sapling/1000/-300/Basic -74/Oranberry Sapling/Takes 28 days to produce a mature Orange tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+				"723": "Forretress/40/-300/Fish -4/Forretress/\tIt is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards./Day^Spring Summer",
+				"636": "Pechaberry/140/15/Basic -79/Pechaberry/It's almost fuzzy to the touch.",
+				"631": "Pechaberry Sapling/1500/-300/Basic -74/Pechaberry Sapling/Takes 28 days to produce a mature Pechaberry tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+				"722": "Shellos/20/-300/Fish -4/Shellos/There's speculation that its appearance is determined by what it eats, but the truth remains elusive./Day^Spring Summer",
+				"311": "Pineco/5/-300/Crafting -74/Pineco/Pineco hangs from a tree branch and patiently waits for prey to come along.",
+				"397": "Pincurchin/160/-300/Basic -23/Pincurchin/A slow-moving, spiny creature that some consider a delicacy.",
+				"721": "Goomy/65/-300/Fish -4/Goomy/It's covered in a slimy membrane that makes any punches or kicks slide off it harmlessly./Day^Spring Summer",
+				"421": "Sunflora/80/18/Basic -80/Sunflora/A common misconception is that the flower turns so it's always facing the sun.",
+				"431": "Sunflora Seeds/20/-300/Seeds -74/Sunflora Seeds/Plant in summer or fall. Takes 8 days to produce a large Sunflora. Yields more seeds at harvest.",
+				"480": "Tamatoberry Seeds/25/-300/Seeds -74/Tamatoberry Seeds/Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.",
+				"618": "Bruschetta/210/45/Cooking -7/Bruschetta/Roasted Tamatoberryes on a crisp white bread./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"865": "Gourmet Tamatoberry Salt/0/-300/Quest/Gourmet Tamatoberry Salt/A rare, delicious and savory salt.",
+				"272": "Eggplant/60/8/Basic -75/Eggplant/A rich and wholesome relative of the Tamatoberry. Delicious fried or stewed.",
+				"430": "Shroomish/625/5/Basic -17/Shroomish/Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves.",
+				"432": "Shroomish Oil/1065/15/Basic -26/Shroomish Oil/A gourmet cooking ingredient./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"604": "Lumberry Pudding/260/70/Cooking -7/Lumberry Pudding/A traditional holiday treat./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"406": "Wild Lumberry/80/10/Basic -79/Wild Lumberry/Tart and juicy with a pungent aroma.",
+				"629": "Apicotberry Sapling/500/-300/Basic -74/Apicotberry Sapling/Takes 28 days to produce a mature Apicotberry tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+				"634": "Apicotberry/50/15/Basic -79/Apicotberry/A tender little fruit with a rock-hard pit.",
+				"116": "Staryu/40/-300/Arch/Staryu/It appears in large numbers by seashores. At night, its central core flashes with a red light./Beach .1/Money 1 200"
+			}
+		}
+	]
+}

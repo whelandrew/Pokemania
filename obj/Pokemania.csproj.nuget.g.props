@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgILAsm Condition=" '$(PkgILAsm)' == '' ">C:\Users\whela\.nuget\packages\ilasm\4.700.2</PkgILAsm>
+  </PropertyGroup>
 </Project>

@@ -1,10 +1,10 @@
+D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.deps.json
+D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.dll
+D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.pdb
+D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.csproj.AssemblyReference.cache
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.AssemblyInfoInputs.cache
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.AssemblyInfo.cs
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.csproj.CoreCompileInputs.cache
-D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.deps.json
-D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.dll
-D:\Projects\StardewMods\Pokemania\bin\Debug\net5.0\Pokemania.pdb
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.dll
 D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.pdb
-D:\Projects\StardewMods\Pokemania\obj\Debug\net5.0\Pokemania.csproj.AssemblyReference.cache
