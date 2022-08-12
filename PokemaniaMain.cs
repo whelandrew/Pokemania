@@ -32,40 +32,44 @@ namespace PokemaniaMain
                     //if (Game1.player.IsCarrying())
                     //if (curItem != null)
                     {
-                        //if (curItem.parentSheetIndex.Equals(82))
+                        if (curItem.parentSheetIndex.Equals(82))
                         {
                             //check that pet has been evolved
                             //ask if player wants to evolve
                             //evolve pet
-                            Pet pet = Game1.player.getPet();
                             //bool test = Game1.player.hasPlayerTalkedToNPC(pet.Name);
                             //Game1.player.talkToFriend(pet);
                             //Netcode.NetBool test = pet.collidesWithOtherCharacters;
 
                             //Game1.player.collideWith((StardewValley.Object) pet);
                             //pet.collideWith();
-                            if (!pet.uniquePortraitActive)
-                            {
-                                if (pet.whichBreed.Equals(0))//growlithe
-                                {
-                                    string file = Directory.GetCurrentDirectory() + "/mods/pokemania/assets/evolves/dog.xnb";
-                                    pet.Sprite = new AnimatedSprite();
-                                    pet.Sprite.LoadTexture(file);
-                                    Vector2 offset = pet.appliedRouteAnimationOffset;
-                                    pet.Sprite.SourceRect = new Rectangle(0, 224, 32, 32);
-                                    pet.Sprite.SpriteWidth = 32;
-                                    pet.Sprite.SpriteHeight = 32;
-                                    pet.uniqueSpriteActive = true;
-
-                                    Console.WriteLine(pet);
-                                }
-                            }
+                            //if (!pet.uniquePortraitActive)
+                            //{
+                                //if (pet.whichBreed.Equals(0))//growlithe
+                            //    {
+                                    //ChangePetSprite();
+                            //    }
+                            //}
                         }
                         //Console.WriteLine(Game1.player.IsCarrying());
                         //Item item = Game1.player.Items();
                     }
                 }
             }
+        }
+
+        private void ChangePetSprite()
+        {
+            Pet pet = Game1.player.getPet();
+
+            string file = Directory.GetCurrentDirectory() + "/mods/pokemania/assets/evolves/dog.xnb";
+            pet.Sprite = new AnimatedSprite();
+            pet.Sprite.LoadTexture(file);
+            Vector2 offset = pet.appliedRouteAnimationOffset;
+            pet.Sprite.SourceRect = new Rectangle(0, 224, 32, 32);
+            pet.Sprite.SpriteWidth = 32;
+            pet.Sprite.SpriteHeight = 32;
+            pet.uniqueSpriteActive = true;
         }
 
         private void OnAssetRequested(object sender, AssetRequestedEventArgs e)

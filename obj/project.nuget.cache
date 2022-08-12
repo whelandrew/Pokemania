@@ -1,19 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "6oj03RXAkXO/d1Ba9/hIc1zHQGbkV7Ny64IhGAXrwSzYYAhSg2A1nkM6EZlESEn+Nf8b9NIS10ouNQoR0BKzzg==",
+  "dgSpecHash": "hwTuV1r8odAxn+Mg1Q1rldgBmrkHlsMaOkFzMh5bLFO7wu2K0/h7uQIug6Wk0T4w9GqZmQ5riMVGrxZHjfMLFA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\StardewMods\\Pokemania\\Pokemania.csproj",
+  "projectFilePath": "C:\\Users\\kromi\\Projects\\Pokemania\\Pokemania.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\whela\\.nuget\\packages\\ilasm\\4.700.2\\ilasm.4.700.2.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.targets\\1.1.2\\microsoft.netcore.targets.1.1.2.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.1\\pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\platonymous.platotk\\1.5.0\\platonymous.platotk.1.5.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.console\\4.3.1\\system.console.4.3.1.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\kromi\\.nuget\\packages\\ilasm\\4.700.2\\ilasm.4.700.2.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.2\\microsoft.netcore.targets.1.1.2.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\moonsharp\\2.0.0\\moonsharp.2.0.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.1\\pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\platonymous.platotk\\1.5.0\\platonymous.platotk.1.5.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\system.console\\4.3.1\\system.console.4.3.1.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\kromi\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {

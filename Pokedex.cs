@@ -122,7 +122,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Junk", "EditImage", "Maps/springobjects", "assets/Junk.png", new Rectangle(0, 0, 16, 16), new Vector2(0, 112), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Nanab", "EditImage", "Maps/springobjects", "assets/Nanab.png", new Rectangle(0, 0, 16, 16), new Vector2(304, 48), PatchMode.Replace));
         toReplace.Changes.Add(new Item("NanabTree", "EditImage", "Maps/springobjects", "assets/NanabTree.png", new Rectangle(0, 0, 16, 16), new Vector2(336, 32), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Exeggutor", "EditImage", "Maps/springobjects", "assets/Exeggutor.png", new Rectangle(0, 0, 16, 16), new Vector2(272, 64), PatchMode.Replace));
+        //toReplace.Changes.Add(new Item("Exeggutor", "EditImage", "Maps/springobjects", "assets/Exeggutor.png", new Rectangle(0, 0, 16, 16), new Vector2(272, 64), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Torchic", "EditImage", "Maps/springobjects", "assets/Torchic.png", new Rectangle(0, 0, 16, 16), new Vector2(272, 64), PatchMode.Replace));
         toReplace.Changes.Add(new Item("EggHuge", "EditImage", "Maps/springobjects", "assets/Egg.png", new Rectangle(0, 0, 16, 16), new Vector2(176, 64), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Spelon", "EditImage", "Maps/springobjects", "assets/Spelon.png", new Rectangle(0, 0, 16, 16), new Vector2(320, 160), PatchMode.Replace));
@@ -252,7 +252,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Ursaring", "EditImage", "Maps/townInterior", "assets/Ursaring.png", new Rectangle(0, 0, 32, 64), new Vector2(0, 688), PatchMode.Replace));
         toReplace.Changes.Add(new Item("ShinyP", "EditImage", "Maps/townInterior", "assets/ShinyP.png", new Rectangle(0, 0, 16, 14), new Vector2(128, 624), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Pangoro", "EditImage", "Maps/townInterior", "assets/Pangoro.png", new Rectangle(0, 0, 32, 32), new Vector2(0, 640), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Pancham", "EditImage", "Maps/townInterior", "assets/Pancham.png", new Rectangle(0, 0, 16, 16), new Vector2(0, 272), PatchMode.Replace));
+        //toReplace.Changes.Add(new Item("Pancham", "EditImage", "Maps/townInterior", "assets/Pancham.png", new Rectangle(0, 0, 16, 16), new Vector2(0, 272), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Tangella", "EditImage", "Maps/townInterior", "assets/Tangella.png", new Rectangle(0, 0, 16, 30), new Vector2(351, 528), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Machoke", "EditImage", "Maps/townInterior", "assets/Machoke.png", new Rectangle(0, 0, 16, 16), new Vector2(287, 160), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Marowak", "EditImage", "Maps/townInterior", "assets/Marowak.png", new Rectangle(0, 0, 64, 32), new Vector2(319, 384), PatchMode.Replace));
