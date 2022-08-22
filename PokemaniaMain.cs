@@ -4,63 +4,96 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Characters;
+using StardewValley.Menus;
 
 namespace PokemaniaMain
 {
     public class ModEntry : Mod
     {
+        bool dialogueShown;
+        //PetInfo curPet;
+        Pet curPet;
         public ToReplace toReplace = new Pokedex().GetAllPokemon();
         public override void Entry(IModHelper helper)
         {
+           
+
             helper.Events.Content.AssetRequested += OnAssetRequested;
             helper.Events.Input.ButtonPressed += OnButtonPressed;
+            helper.Events.GameLoop.UpdateTicked += CheckForPet;
         }
 
-        private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
-        {    
-            if (e.Button.IsActionButton())
-            {                      
-                
-                if (Game1.player.name != "" && Game1.player.hasPet())
+        private void CheckForPet(object sender, UpdateTickedEventArgs e)
+        {
+            //Console.WriteLine(e);
+            GameLocation location = Game1.currentLocation;
+            if(location != null && location.IsFarm)
+            {
+                //curPet = new PetInfo(Game1.player.getPet());
+                curPet = Game1.player.getPet();
+                if(curPet != null)
                 {
-                    StardewValley.Item curItem = Game1.player.CurrentItem;
-                    //check if player is holding fire stone
-                    //if (Game1.player.IsCarrying())
-                    //if (curItem != null)
+                    //petInfo.startGlowing(Color.Black, true, 10f);
+                    //Console.WriteLine(petInfo);
+                }
+            }
+        }
+        private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
+        {
+            //if(sender!=null)
+            { 
+            if (e.Button.IsActionButton())
+            {
+                    if (curPet != null)
                     {
-                        if (curItem.parentSheetIndex.Equals(82))
+                        StardewValley.Item curItem = Game1.player.CurrentItem;
+                        //check if player is holding fire stone
+                        //if (curItem.parentSheetIndex == 82)
                         {
-                            //check that pet has been evolved
-                            //ask if player wants to evolve
-                            //evolve pet
-                            //bool test = Game1.player.hasPlayerTalkedToNPC(pet.Name);
-                            //Game1.player.talkToFriend(pet);
-                            //Netcode.NetBool test = pet.collidesWithOtherCharacters;
+                            //check player is using the item on pet
+                            ReceiveObject();
+                            //curPet.tryToReceiveActiveObject(Game1.player);
+                            //curPet.receiveObject(Game1.player, curItem);
 
-                            //Game1.player.collideWith((StardewValley.Object) pet);
-                            //pet.collideWith();
-                            //if (!pet.uniquePortraitActive)
-                            //{
-                                //if (pet.whichBreed.Equals(0))//growlithe
-                            //    {
-                                    //ChangePetSprite();
-                            //    }
-                            //}
+                            //check that pet has been evolved
+
+                            //ask if player wants to evolve
                         }
-                        //Console.WriteLine(Game1.player.IsCarrying());
-                        //Item item = Game1.player.Items();
                     }
                 }
             }
         }
 
-        private void ChangePetSprite()
+        private void ReceiveObject()
+        {           
+            //curPet.tryToReceiveActiveObject(Game1.player);
+        }
+
+        private void LoadEvolveWindow()
         {
-            Pet pet = Game1.player.getPet();
+            if (!dialogueShown)
+            {
+                dialogueShown = true;
+                GameLocation location = Game1.currentLocation;
+                Response[] responses = { new Response("0", "Evolve " + Game1.player.getPet().Name), new Response("1", "Do not evolve") };
+                location.createQuestionDialogue(Game1.player.getPet().Name + " gives off a magical glow...", responses, delegate (Farmer _, string answer)
+                    {
+                        switch (answer)
+                        {
+                            case "0": ChangePetSprite(Game1.player.getPet()); break;
+                            case "1": break;
+                        }
+                    });
+            }
+        }
+
+        private void ChangePetSprite(Pet pet)
+        {
 
             string file = Directory.GetCurrentDirectory() + "/mods/pokemania/assets/evolves/dog.xnb";
             pet.Sprite = new AnimatedSprite();

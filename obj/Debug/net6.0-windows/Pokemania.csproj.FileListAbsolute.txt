@@ -1,0 +1,10 @@
+C:\Users\kromi\Projects\Pokemania\bin\Debug\net6.0-windows\Pokemania.deps.json
+C:\Users\kromi\Projects\Pokemania\bin\Debug\net6.0-windows\Pokemania.dll
+C:\Users\kromi\Projects\Pokemania\bin\Debug\net6.0-windows\Pokemania.pdb
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.csproj.AssemblyReference.cache
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.AssemblyInfoInputs.cache
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.AssemblyInfo.cs
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.csproj.CoreCompileInputs.cache
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.dll
+C:\Users\kromi\Projects\Pokemania\obj\Debug\net6.0-windows\Pokemania.pdb

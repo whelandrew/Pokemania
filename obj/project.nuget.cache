@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hwTuV1r8odAxn+Mg1Q1rldgBmrkHlsMaOkFzMh5bLFO7wu2K0/h7uQIug6Wk0T4w9GqZmQ5riMVGrxZHjfMLFA==",
+  "dgSpecHash": "wJt1ptrIqELP0afOqVS0PZETiI+s/bNaywc/cCmClvzZlbI2Tt92R3kRgPP7ay0C7dAUoI42+D9wdvrQyG9kKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kromi\\Projects\\Pokemania\\Pokemania.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ILAsm 4.700.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ILAsm 4.700.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ILAsm",
       "targetGraphs": [
         "net5.0"
@@ -36,7 +36,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Platonymous.PlatoTK 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Platonymous.PlatoTK 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Platonymous.PlatoTK",
       "targetGraphs": [
         "net5.0"
