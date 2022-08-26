@@ -731,19 +731,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kromi\\.nuget\\packages\\": {}
+    "C:\\Users\\whela\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kromi\\Projects\\Pokemania\\Pokemania.csproj",
+      "projectUniqueName": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj",
       "projectName": "Pokemania",
-      "projectPath": "C:\\Users\\kromi\\Projects\\Pokemania\\Pokemania.csproj",
-      "packagesPath": "C:\\Users\\kromi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kromi\\Projects\\Pokemania\\obj\\",
+      "projectPath": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj",
+      "packagesPath": "C:\\Users\\whela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kromi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\whela\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
