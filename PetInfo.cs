@@ -9,6 +9,8 @@ using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework.Audio;
 using StardewValley.Monsters;
 using Microsoft.Xna.Framework.Graphics;
+using static System.Net.Mime.MediaTypeNames;
+using System.Threading.Tasks;
 
 public class PetInfo
 {
@@ -35,11 +37,10 @@ public class PetInfo
         harmony.Patch(
                original: AccessTools.Method(typeof(Pet), nameof(Pet.setAtFarmPosition)),
                prefix: new HarmonyMethod(typeof(PetInfo), nameof(PetInfo.setAtFarmPosition))
-            );
+            );       
     }
 
-    //make pet glow
-    public static void setAtFarmPosition()
+    private static void setAtFarmPosition()
     {
         savedPet = helper.Data.ReadJsonFile<PetData>("petData.json") ?? new PetData(0, "0", false,""); ;
         if (savedPet != null && savedPet.hasEvolved)
@@ -50,8 +51,7 @@ public class PetInfo
         {
             if(!soundLoaded)
                 InstallEvolveSound();
-        }
-        //Game1.player.getPet().startGlowing(Color.White, false, 1f);
+        }        
     }
 
     
@@ -71,7 +71,7 @@ public class PetInfo
         Game1.soundBank.AddCue(myCueDefinition);
     }
 
-    public static void checkAction(StardewValley.Object __instance)
+    private static void checkAction(StardewValley.Object __instance)
     {
         try
         {
@@ -107,33 +107,36 @@ public class PetInfo
             Monitor.LogOnce("HarmonyPatch tryToReceiveActiveObject failed " + e.Message);
         }
     }
-    private static void EvolveStart(Farmer who, Pet pet, string fileName)    
+    private static async void EvolveStart(Farmer who, Pet pet, string fileName)    
     {
         who.Halt();
         who.faceGeneralDirection(Game1.player.getStandingPosition(), 0, opposite: false, useTileCalculations: false);
         who.faceTowardFarmerForPeriod(4000, 3, faceAway: false, Game1.player);
-        EvolveAnimate(who, pet);
+
+        //EvolveAnimate(who, pet);
+        await EvolveAnimate(who, pet);
         ChangePetSprite(fileName, who, pet);
         EvolveFinished(who, pet, fileName);
-    }
+    }     
 
-    public static void EvolveAnimate(Farmer who, Pet pet)
+    private static async Task EvolveAnimate(Farmer who, Pet pet)
     {
-        Game1.currentLocation.//explode(pet.Position, 50, who, false);
-        //Game1.screenGlowOnce(Color.White, false,0.005f,1);
+        Game1.screenGlowOnce(Color.White, true, .009f, 1);
+        Game1.playSound("secret1");
+        await Task.Delay(2000);        
     }
 
-    public static void EvolveFinished(Farmer who, Pet pet, string fileName)
+    private static void EvolveFinished(Farmer who, Pet pet, string fileName)
     {
         Game1.drawObjectDialogue(pet.Name + " has evolved!");
         Game1.playSound("evolveSuccess");
         SaveChanges(pet, fileName);
         who.reduceActiveItemByOne();
         who.completelyStopAnimatingOrDoingAction();
-        pet.faceTowardFarmerForPeriod(4000, 3, faceAway: false, who); 
+        pet.faceTowardFarmerForPeriod(4000, 3, faceAway: false, who);
+        Game1.screenGlowOnce(Color.White, false, .009f, 0);
     }
-
-    public static void ChangePetSprite(string fileName, Farmer who, Pet pet)
+    private static void ChangePetSprite(string fileName, Farmer who, Pet pet)
     {
         string file = Directory.GetCurrentDirectory() + "/mods/pokemania/assets/evolves/" + fileName;
         pet.Sprite = new AnimatedSprite();
@@ -147,7 +150,7 @@ public class PetInfo
     private static void SaveChanges(Pet curPet, string fileName)
     {
         savedPet = new PetData(curPet.id, curPet.Name, true, fileName);
-        //helper.Data.WriteJsonFile("petData.json", savedPet);
+        helper.Data.WriteJsonFile("petData.json", savedPet);
     }
 }
 
