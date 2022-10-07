@@ -28,3 +28,13 @@ C:\Users\whela\OneDrive\Documents\GitHub\Pokemania\obj\Debug\net5.0\Pokemania.As
 C:\Users\whela\OneDrive\Documents\GitHub\Pokemania\obj\Debug\net5.0\Pokemania.csproj.CoreCompileInputs.cache
 C:\Users\whela\OneDrive\Documents\GitHub\Pokemania\obj\Debug\net5.0\Pokemania.dll
 C:\Users\whela\OneDrive\Documents\GitHub\Pokemania\obj\Debug\net5.0\Pokemania.pdb
+E:\Projects\Unity\Pokemania\bin\Debug\net5.0\Pokemania.deps.json
+E:\Projects\Unity\Pokemania\bin\Debug\net5.0\Pokemania.dll
+E:\Projects\Unity\Pokemania\bin\Debug\net5.0\Pokemania.pdb
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.csproj.AssemblyReference.cache
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.AssemblyInfoInputs.cache
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.AssemblyInfo.cs
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.csproj.CoreCompileInputs.cache
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.dll
+E:\Projects\Unity\Pokemania\obj\Debug\net5.0\Pokemania.pdb

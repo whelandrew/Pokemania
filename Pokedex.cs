@@ -62,9 +62,18 @@ public class Item
 public class Pokedex
 {
     private ToReplace toReplace = new ToReplace();
+    private ToReplace toAdd = new ToReplace();
     public Pokedex()
     {
         toReplace.Changes = new List<Item>();
+        toAdd.Changes = new List<Item>();
+    }
+
+    public ToReplace AddToLists()
+    {
+
+
+        return toAdd;
     }
 
     public ToReplace GetAllPokemon()
@@ -81,7 +90,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Zubat", "EditImage", "LooseSprites/Cursors", "assets/Zubat.png", new Rectangle(0, 0, 64, 16), new Vector2(640, 1664), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Pokeballs", "EditImage", "LooseSprites/Cursors", "assets/Pokeballs.png", new Rectangle(0, 0, 64, 16), new Vector2(368, 32), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Chingling_02", "EditImage", "LooseSprites/Cursors", "assets/Chingling_02.png", new Rectangle(0, 0, 190, 28), new Vector2(0, 165), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Chingling_01", "EditImage", "LooseSprites/Cursors", "assets/Chingling_01.png", new Rectangle(0, 0, 112, 15), new Vector2(48,144), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Chingling_01", "EditImage", "LooseSprites/Cursors", "assets/Chingling_01.png", new Rectangle(0, 0, 112, 15), new Vector2(52,149), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Tangella", "EditImage", "LooseSprites/Cursors", "assets/Tangella.png", new Rectangle(0, 0, 16, 30), new Vector2(127, 687), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Drifloon", "EditImage", "LooseSprites/Cursors", "assets/Drifloon.png", new Rectangle(0, 0, 64, 18), new Vector2(640, 768), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Drifblim", "EditImage", "LooseSprites/Cursors", "assets/Drifblim.png", new Rectangle(0, 0, 84, 143), new Vector2(0, 1182), PatchMode.Replace));
@@ -91,7 +100,8 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Houndoom", "EditImage", "LooseSprites/Cursors", "assets/Houndoom.png", new Rectangle(0, 0, 72, 40), new Vector2(323, 1916), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Pelipper", "EditImage", "LooseSprites/Cursors", "assets/Pelipper.png", new Rectangle(0, 0, 144, 21), new Vector2(388, 1894), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Lopad", "EditImage", "LooseSprites/Cursors", "assets/Lopad.png", new Rectangle(0, 0, 64, 16), new Vector2(0, 1920), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Castform_Grey", "EditImage", "LooseSprites/Cursors", "assets/Castform_Grey.png", new Rectangle(0, 0, 62, 18), new Vector2(295, 1432), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Castform_Grey", "EditImage", "LooseSprites/Cursors", "assets/Castform_Grey.png", new Rectangle(0, 0, 62, 18), new Vector2(295, 143), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("horseHead", "EditImage", "LooseSprites/Cursors", "assets/horseHead.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 192), PatchMode.Replace));
 
         //LooseSprites/Cursors2
         toReplace.Changes.Add(new Item("Remoraid", "EditImage", "LooseSprites/Cursors2", "assets/Remoraid.png", new Rectangle(0, 0, 84, 28), new Vector2(172, 33), PatchMode.Replace));
@@ -105,8 +115,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("EggLargePurple", "EditImage", "Maps/springobjects", "assets/EggLargePurple.png", new Rectangle(0, 0, 16, 16), new Vector2(96, 112), PatchMode.Replace));
         toReplace.Changes.Add(new Item("EggLargeOrange", "EditImage", "Maps/springobjects", "assets/EggLargeOrange.png", new Rectangle(0, 0, 16, 16), new Vector2(224, 112), PatchMode.Replace));
         toReplace.Changes.Add(new Item("EggRegPurple", "EditImage", "Maps/springobjects", "assets/EggRegPurple.png", new Rectangle(0, 0, 16, 16), new Vector2(128, 112), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("EggRegOrange", "EditImage", "Maps/springobjects", "assets/EggRegOrange.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 112), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("FireStone", "EditImage", "Maps/springobjects", "assets/fireStone.png", new Rectangle(0, 0, 16, 16), new Vector2(160, 48), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("EggRegOrange", "EditImage", "Maps/springobjects", "assets/EggRegOrange.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 112), PatchMode.Replace));        
         toReplace.Changes.Add(new Item("Fish_01", "EditImage", "Maps/springobjects", "assets/Fish_01.png", new Rectangle(0, 0, 79, 16), new Vector2(128, 80), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Fish_02", "EditImage", "Maps/springobjects", "assets/Fish_02.png", new Rectangle(0, 0, 128, 16), new Vector2(256, 80), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Fish_03", "EditImage", "Maps/springobjects", "assets/Fish_03.png", new Rectangle(0, 0, 380, 16), new Vector2(0, 96), PatchMode.Replace));
@@ -130,10 +139,13 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Foongus", "EditImage", "Maps/springobjects", "assets/Foongus.png", new Rectangle(0, 0, 16, 16), new Vector2(320, 256), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Pinap", "EditImage", "Maps/springobjects", "assets/Pinap.png", new Rectangle(0, 0, 16, 16), new Vector2(256, 544), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Oran", "EditImage", "Maps/springobjects", "assets/Oran.png", new Rectangle(0, 0, 16, 16), new Vector2(176, 416), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Apicotberry", "EditImage", "Maps/springobjects", "assets/Apicotberry.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 416), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Lumberry", "EditImage", "Maps/springobjects", "assets/Lumberry.png", new Rectangle(0, 0, 16, 16), new Vector2(352, 256), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Apicot", "EditImage", "Maps/springobjects", "assets/Apicot.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 416), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Lum", "EditImage", "Maps/springobjects", "assets/Lum.png", new Rectangle(0, 0, 16, 16), new Vector2(352, 256), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Shroomish", "EditImage", "Maps/springobjects", "assets/Shroomish.png", new Rectangle(0, 0, 16, 16), new Vector2(352, 272), PatchMode.Replace));
         toReplace.Changes.Add(new Item("AnorinthCocktail", "EditImage", "Maps/springobjects", "assets/AnorinthCocktail.png", new Rectangle(0, 0, 16, 16), new Vector2(208, 480), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("FireStone", "EditImage", "Maps/springobjects", "assets/fireStone.png", new Rectangle(0, 0, 16, 16), new Vector2(160, 48), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Waterstone", "EditImage", "Maps/springobjects", "assets/waterStone.png", new Rectangle(0, 0, 16, 16), new Vector2(192, 48), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Thunderstone", "EditImage", "Maps/springobjects", "assets/thunderStone.png", new Rectangle(0, 0, 16, 16), new Vector2(223, 48), PatchMode.Replace));
 
         //LooseSprites/JunimoNote
         toReplace.Changes.Add(new Item("Lapras", "EditImage", "LooseSprites/JunimoNote", "assets/Lapras.png", new Rectangle(0, 0, 32, 32), new Vector2(255, 180), PatchMode.Replace));
@@ -142,13 +154,13 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Hippowdon", "EditImage", "LooseSprites/JunimoNote", "assets/Hippowdon.png", new Rectangle(0, 0, 32, 32), new Vector2(128, 180), PatchMode.Replace));
 
         //Maps/Festivals
-        toReplace.Changes.Add(new Item("Frillish", "EditImage", "Maps/Festivals", "assets/Frillish.png", new Rectangle(0, 0, 96, 32), new Vector2(256, 16), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Frillish", "EditImage", "Maps/Festivals", "assets/Frillish.png", new Rectangle(0, 0, 96, 32), new Vector2(256, 15), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Spinarak", "EditImage", "Maps/Festivals", "assets/Spinarak.png", new Rectangle(0, 0, 16, 16), new Vector2(256, 288), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Jynx", "EditImage", "Maps/Festivals", "assets/Jynx.png", new Rectangle(0, 0, 16, 48), new Vector2(32, 32), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Fish_10", "EditImage", "Maps/Festivals", "assets/Fish_10.png", new Rectangle(0, 0, 16, 16), new Vector2(111, 431), PatchMode.Replace));
         toReplace.Changes.Add(new Item("FishBox", "EditImage", "Maps/Festivals", "assets/FishBox.png", new Rectangle(0, 0, 48, 48), new Vector2(464, 55), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Castform_02", "EditImage", "Maps/Festivals", "assets/Castform_02.png", new Rectangle(0, 0, 31, 31), new Vector2(303, 160), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Castform_01", "EditImage", "Maps/Festivals", "assets/Castform_01.png", new Rectangle(0, 0, 31, 31), new Vector2(256, 16), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Castform_02", "EditImage", "Maps/Festivals", "assets/Castform_02.png", new Rectangle(0, 0, 32, 32), new Vector2(302, 160), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Castform_01", "EditImage", "Maps/Festivals", "assets/Castform_01.png", new Rectangle(0, 0, 32, 32), new Vector2(115, 159), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Gengar", "EditImage", "Maps/Festivals", "assets/Gengar.png", new Rectangle(0, 0, 64, 16), new Vector2(320, 336), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Clefairy", "EditImage", "Maps/Festivals", "assets/Clefairy.png", new Rectangle(0, 0, 32, 48), new Vector2(96, 352), PatchMode.Replace));
 
@@ -252,7 +264,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Ursaring", "EditImage", "Maps/townInterior", "assets/Ursaring.png", new Rectangle(0, 0, 32, 64), new Vector2(0, 688), PatchMode.Replace));
         toReplace.Changes.Add(new Item("ShinyP", "EditImage", "Maps/townInterior", "assets/ShinyP.png", new Rectangle(0, 0, 16, 14), new Vector2(128, 624), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Pangoro", "EditImage", "Maps/townInterior", "assets/Pangoro.png", new Rectangle(0, 0, 32, 32), new Vector2(0, 640), PatchMode.Replace));
-        //toReplace.Changes.Add(new Item("Pancham", "EditImage", "Maps/townInterior", "assets/Pancham.png", new Rectangle(0, 0, 16, 16), new Vector2(0, 272), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Pancham", "EditImage", "Maps/townInterior", "assets/Pancham.png", new Rectangle(0, 0, 16, 16), new Vector2(0, 272), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Tangella", "EditImage", "Maps/townInterior", "assets/Tangella.png", new Rectangle(0, 0, 16, 30), new Vector2(351, 528), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Machoke", "EditImage", "Maps/townInterior", "assets/Machoke.png", new Rectangle(0, 0, 16, 16), new Vector2(287, 160), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Marowak", "EditImage", "Maps/townInterior", "assets/Marowak.png", new Rectangle(0, 0, 64, 32), new Vector2(319, 384), PatchMode.Replace));
@@ -282,7 +294,7 @@ public class Pokedex
 
         //TileSheets/furniture
         toReplace.Changes.Add(new Item("Combusken", "EditImage", "TileSheets/furniture", "assets/Combusken.png", new Rectangle(0, 0, 16, 32), new Vector2(400, 640), PatchMode.Replace));
-        toReplace.Changes.Add(new Item("Eggxecutor", "EditImage", "TileSheets/furniture", "assets/Eggxecutor.png", new Rectangle(0, 0, 16, 48), new Vector2(24, 641), PatchMode.Replace));
+        toReplace.Changes.Add(new Item("Eggxecutor", "EditImage", "TileSheets/furniture", "assets/Eggxecutor.png", new Rectangle(0, 0, 16, 48), new Vector2(223, 639), PatchMode.Replace));
         toReplace.Changes.Add(new Item("PanchamFurniture", "EditImage", "TileSheets/furniture", "assets/PanchamFurniture.png", new Rectangle(0, 0, 16, 16), new Vector2(336, 672), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Paintings", "EditImage", "TileSheets/furniture", "assets/Paintings.png", new Rectangle(0, 0, 415, 31), new Vector2(48, 769), PatchMode.Replace));
         toReplace.Changes.Add(new Item("Paintings02", "EditImage", "TileSheets/furniture", "assets/Paintings02.png", new Rectangle(0, 0, 64, 18), new Vector2(416, 918), PatchMode.Replace));
@@ -345,7 +357,7 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Animals/BabyBlue Chicken", "Load", "Animals/BabyBlue Chicken", "assets/SkeBabyBlue Chickenleton.png"));
         toReplace.Changes.Add(new Item("Animals/BabyBrown Chicken", "Load", "Animals/BabyBrown Chicken", "assets/BabyBrown Chicken.png"));
         toReplace.Changes.Add(new Item("Animals/BabyBrown Cow", "Load", "Animals/BabyBrown Cow", "assets/BabyBrown Cow.png"));
-        //toReplace.Changes.Add(new Item("Animals/BabyPig", "Load", "Animals/BabyPig", "assets/BabyPig.png"));
+        toReplace.Changes.Add(new Item("Animals/BabyPig", "Load", "Animals/BabyPig", "assets/BabyPig.png"));
         toReplace.Changes.Add(new Item("Animals/BabySheep", "Load", "Animals/BabySheep", "assets/BabySheep.png"));
         toReplace.Changes.Add(new Item("Animals/BabyVoid Chicken", "Load", "Animals/BabyVoid Chicken", "assets/BabyVoid Chicken.png"));
         toReplace.Changes.Add(new Item("Animals/BabyWhite Chicken", "Load", "Animals/BabyWhite Chicken", "assets/BabyWhite Chicken.png"));
@@ -365,24 +377,26 @@ public class Pokedex
         toReplace.Changes.Add(new Item("Animals/BabyGoat", "Load", "Animals/BabyGoat", "assets/BabyGoat.png"));
         toReplace.Changes.Add(new Item("Animals/horse", "Load", "Animals/horse", "assets/horse.png"));
         toReplace.Changes.Add(new Item("Animals/Pig", "Load", "Animals/Pig", "assets/Pig.png"));
-        toReplace.Changes.Add(new Item("Animals/Rabbit", "Load", "Animals/Rabbit", "assets/Rabbit.png"));
+        //toReplace.Changes.Add(new Item("Animals/Rabbit", "Load", "Animals/Rabbit", "assets/Rabbit.png"));
         toReplace.Changes.Add(new Item("Animals/ShearedSheep", "Load", "Animals/ShearedSheep", "assets/ShearedSheep.png"));
         toReplace.Changes.Add(new Item("Animals/Sheep", "Load", "Animals/Sheep", "assets/Sheep.png"));
         toReplace.Changes.Add(new Item("Animals/Void Chicken", "Load", "Animals/Void Chicken", "assets/Void Chicken.png"));
         toReplace.Changes.Add(new Item("Animals/White Chicken", "Load", "Animals/White Chicken", "assets/White Chicken.png"));
         toReplace.Changes.Add(new Item("Animals/White Cow", "Load", "Animals/White Cow", "assets/White Cow.png"));
-        toReplace.Changes.Add(new Item("Animals/BabyRabbit", "Load", "Animals/BabyRabbit", "assets/Scorbunny.png"));
+        //toReplace.Changes.Add(new Item("Animals/BabyRabbit", "Load", "Animals/BabyRabbit", "assets/Scorbunny.png"));        
 
+        
         //EditData
         IDictionary<string, string> entries = new Dictionary<string, string>();
 
         //Data/FarmAnimals
+        
         entries.Add("White Chicken", "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Prinplup/Coop");
         entries.Add("Brown Chicken", "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Xatu/Coop");
         entries.Add("Blue Chicken", "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Combusken/Coop");
         entries.Add("Void Chicken", "1/3/305/305/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/800/Banette/Coop");
         entries.Add("Duck", "2/5/442/444/Psyduck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/1200/Psyduck/Coop");
-        entries.Add("Rabbit", "4/6/440/446/Nidoran/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/10/5/null/643/8000/Shaymin/Coop");
+        //entries.Add("Rabbit", "4/6/440/446/Nidoran/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/10/5/null/643/8000/Shaymin/Coop");
         entries.Add("Dinosaur", "7/0/107/100/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Bagon/Coop");
         entries.Add("White Cow", "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Hippowdon/Barn");
         entries.Add("Brown Cow", "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Piloswine/Barn");
@@ -390,8 +404,10 @@ public class Pokedex
         entries.Add("Pig", "1/10/430/100/Grumpig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Pig/Barn");
         entries.Add("Sheep", "3/4/440/100/Mareep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Flanfy/Barn");
         toReplace.Changes.Add(new Item("EditData", "Data/FarmAnimals", entries));
+        
 
         //Data/TV/CookingChannel
+        
         entries = new Dictionary<string, string>();
         entries.Add("10", "Phione Soup/Phione Soup! There's something about fresh-caught Phione that just gets me buzzing. Maybe it's the subtle taste of the river. At any rate, I've got a wonderful Phione soup recipe to share with you today...");
         entries.Add("21", "Magikarp Surprise/Hey, ever have a bunch of Magikarp laying around and no idea what to do with them? Yeah, me too. Well, I've devised a great solution to this all-too-common problem. I call it... Magikarp surprise. It's quite easy to make, but you'll need a lot of Magikarp...");
@@ -400,7 +416,7 @@ public class Pokedex
         entries.Add("30", "Corphis Bisque / Corphis Bisque!You could serve this one to the governor himself. It's rich, creamy and delicious, with just the right amount of oceanic flavor. The hardest part is finding some lobster, but I'm sure you can do it.Heck, if you're feeling crafty you could catch one yourself with a Corphis pot!");
 
         toReplace.Changes.Add(new Item("EditData", "Data/TV/CookingChannel", entries));
-
+        
         //Data/Mail
         entries = new Dictionary<string, string>();
         entries.Add("fall_6_2", "Wanted: 1 Fresh Corphish for a marvelous bisque I'm creating.^Who: Gus, proprieter of the Stardrop Saloon^Reward: 800g %item quest 121 %%");
@@ -417,6 +433,7 @@ public class Pokedex
 
         toReplace.Changes.Add(new Item("EditData", "Data/Mail", entries));
 
+        
         //Data/BigCraftablesInformation
         entries = new Dictionary<string, string>();
         entries.Add("161", "Missing No/0/-300/Crafting -9/Missing No/true/true/0/Missing No");
@@ -458,8 +475,25 @@ public class Pokedex
         entries.Add("2814", "Pachirisu Figurine/decor/1 1/1 1/1/500");
         entries.Add("1917", "Wall Pumpkaboo/painting/1 2/1 2/1/750");
 
-        toReplace.Changes.Add(new Item("EditData", "Data/Furniture", entries));
+        //Data/Fish
+        entries.Add("734", "Shellos/50/mixed/11/30/600 2600/spring summer fall winter/both/685 .35/3/.2/.1/0");
+        entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        entries.Add("138", "Bruxish/45/mixed/10/25/600 1900/summer/sunny/684 .35/2/.35/.3/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        //entries.Add("142", "Magikarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0");
+        toReplace.Changes.Add(new Item("EditData", "Data/Fish", entries));
 
+
+        toReplace.Changes.Add(new Item("EditData", "Data/Furniture", entries));
         //Data/ObjectInformation
         entries = new Dictionary<string, string>();
         entries.Add("128", "Quilfish/200/-40/Fish -4/Quilfish/In order to attack the enemy all over the body with its poisonous sting, the Qwilfish has to take in a lot of water and expand up to several times of its actual size./Day^Summer");
@@ -478,33 +512,38 @@ public class Pokedex
         entries.Add("150", "Goldeen/50/10/Fish -4/Goldeen/When the weather warms up, Goldeen form schools and swim upriver./Day^Summer Fall Winter");
         entries.Add("151", "Inkay/80/10/Fish -4/Inkay/It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place./Day^Winter");
         entries.Add("152", "Dragalge/20/5/Fish/Dragalge/Dragalge look very much like drifting kelp when they're swimming with the current./Day Night^Spring Summer Fall Winter");
-        entries.Add("153", "Dragalge*/15/5/Fish/Dragalge*/Dragalge look very much like drifting algae when they're swimming with the current./Day Night^Spring Summer Fall Winter");
+        entries.Add("153", "Dragalge+/15/5/Fish/Dragalge+/Dragalge look very much like drifting algae when they're swimming with the current./Day Night^Spring Summer Fall Winter");
         entries.Add("154", "Pyukumuku/75/-10/Fish -4/Pyukumuku/Pyukumuku lives in shallow water and attacks enemies with a fist-like appendage./Day^Fall Winter");
-        entries.Add("155", "Pyukumuku*/250/50/Fish -4/Pyukumuku*/It can expel its internal organs and use them to grab food or attack enemies./Night^Summer Fall");
+        entries.Add("155", "Pyukumuku+/250/50/Fish -4/Pyukumuku+/It can expel its internal organs and use them to grab food or attack enemies./Night^Summer Fall");
         entries.Add("158", "Relicanth/300/-300/Fish -4/Relicanth/This species lives at the bottom of the sea for thousands of years./Day Night^Spring Summer Fall Winter");
         entries.Add("160", "Chinchou/900/10/Fish -4/Chinchou/Have the ability to conduct electrical currents from their two tentacles, which flow positive from one end and negative from the other./Day Night^Spring Summer Fall Winter");
         entries.Add("162", "Eelektros/700/20/Fish -4/Eelektros/Eelektross's mouth locks onto its opponents, where upon it delivers an electric shock./Day Night^Spring Summer Fall Winter");
         entries.Add("164", "Stunfisk/700/20/Fish -4/Stunfisk/Stunfisk hides itself in the mud and then delivers an electric jolt when its prey touches it, smiling all the while./Day Night^Spring Summer Fall Winter");
-        entries.Add("165", "Magikarp/700/20/Fish -4/Magikarp/Because all Magikarp seem to do is splash around, some consider them weak, but they're actually a hardy Pokémon that can survive in water no matter how dirty it is./Day Night^Spring Summer Fall Winter");
+        //entries.Add("165", "Magikarp/700/20/Fish -4/Magikarp/Because all Magikarp seem to do is splash around, some consider them weak, but they're actually a hardy Pokémon that can survive in water no matter how dirty it is./Day Night^Spring Summer Fall Winter");
         entries.Add("267", "Stunfisk(A)/700/20/Fish -4/Stunfisk/Stunfisk hides itself in the mud and then delivers an electric jolt when its prey touches it, smiling all the while./Day^Spring Summer");
-        entries.Add("698", "Barraskewda*/700/20/Fish -4/Barraskewda/This Pokémon has a jaw that's as sharp as a spear and as strong as steel./Day^Spring Summer");
-
-        //entries.Add("699", "Barraskewda*/700/20/Fish -4/Barraskewda/It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them./Day^Spring Summer");
-
+        entries.Add("698", "Barraskewda+/700/20/Fish -4/Barraskewda/This Pokémon has a jaw that's as sharp as a spear and as strong as steel./Day^Spring Summer");
         entries.Add("700", "Whiscash/700/20/Fish -4/Whiscash/Whiscash has strong territorial instincts and goes berserk when any enemy approaches, creating earthquakes./Day^Spring Summer");
+        //entries.Add("699", "Barraskewda+/700/20/Fish -4/Barraskewda/It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them./Day^Spring Summer");
+        
         entries.Add("795", "Sharpedo/700/20/Fish -4/Sharpedo/Due to their sharp fangs, they're highly feared and known as \"The Gangs of the Sea.\"./Day^Spring Summer");
         entries.Add("796", "Grimer/700/20/Fish -4/Grimer/It was born when sludge in a dirty stream was exposed to X-rays from the moon./Day^Spring Summer");
-        entries.Add("798", "Inkay/700/20/Fish -4/Inkay/By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee./Day^Spring Summer");
-        entries.Add("799", "Mareanie/700/20/Fish -4/Mareanie/The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin./Day^Spring Summer");
-        entries.Add("800", "Gulpin/700/20/Fish -4/Gulpin/Gulpin is able to swallow items of its own size whole, as its stomach comprises most of its body./Day^Spring Summer");
-        entries.Add("734", "Shellos/700/20/Fish -4/Shellos/Shellos's shape and color varies depending on where it lives./Day^Spring Summer");
-        entries.Add("138", "Bruxish/55/10/Fish -4/Bruxish/When the appendage on its head radiates psychic power, it gives off the sound of grinding teeth./Day Night^Winter");
+        //entries.Add("798", "Inkay/700/20/Fish -4/Inkay/By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee./Day^Spring Summer");
+        
+        entries.Add("799", "Mareanie/700/20/Fish -4/Mareanie/The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin./Day^Spring Summer");        
+        entries.Add("800", "Gulpin/700/20/Fish -4/Gulpin/Gulpin is able to swallow items of its own size whole, as its stomach comprises most of its body./Day^Spring Summer");        
+        
+        
+		entries.Add("734", "Shellos/700/20/Fish -4/Shellos/Shellos's shape and color varies depending on where it lives./Day^Spring Summer");
+
+        entries.Add("138", "Bruxish/65/10/Fish -4/Bruxish/When the appendage on its head radiates psychic power, it gives off the sound of grinding teeth./Day^Summer");
+
         entries.Add("838", "Luvdisc/55/10/Fish -4/Luvdisc/It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love./Day Night^Winter");
         entries.Add("718", "Shelmet/50/-300/Fish -4/Shelmet/When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid./Day^Spring Summer");
         entries.Add("171", "Old TM/0/-300/Fish -20/Old TM/This was used to teach a Pokemon moves./Day Night^Spring Summer Fall Winter");
         entries.Add("167", "Potion/25/5/Fish -20/Potion/A spray-type medicine for treating wounds./drink/0 0 0 0 0 0 0 0 0 0 0/0");
         entries.Add("168", "Strange Souvenir/0/-300/Fish -20/Strange Souvenir/An ornament depicting a Pokémon that is venerated as a protector in some region far from Kalos./Day Night^Spring Summer Fall Winter");
-        entries.Add("775", "Arctovish/1000/10/Fish -4/Arctovish/Though it’s able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head./Day^Winter");
+        
+        //entries.Add("775", "Arctovish/1000/10/Fish -4/Arctovish/Though it’s able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head./Day^Winter");        
         entries.Add("837", "Seaking/100/15/Fish -4/S/The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest./Day^Spring Summer");
         entries.Add("445", "Caviar/500/70/Basic -26/Caviar/The cured roe of a Barraskewda. Considered to be a luxurious delicacy!");
         entries.Add("202", "Fried Inkay/150/32/Cooking -7/Fried Inkay/It's so chewy./food/0 0 0 0 0 0 0 0 0 0 0/0");
@@ -519,7 +558,7 @@ public class Pokedex
         entries.Add("729", "Escargot/125/90/Cooking -7/Escargot/Butter-soaked Goomies cooked to perfection./food/0 2 0 0 0 0 0 0 0 0 0/1440");
         entries.Add("730", "Corphish Bisque/205/90/Cooking -7/Corphish Bisque/This delicate soup is a secret family recipe of Willy's./food/0 3 0 0 0 0 0 50 0 0 0/1440");
         entries.Add("732", "Krabby Cakes/275/90/Cooking -7/Krabby Cakes/Krabby, bread crumbs, and egg formed into patties then fried to a golden brown./food/0 0 0 0 0 0 0 0 0 1 1/1440");
-        entries.Add("442", "Psyduck Egg/95/15/Basic -5/Psyduck Egg/It's still warm.");
+        entries.Add("442", "Psyduck Egg/95/15/Basic -5/Psyduck Egg/It's still warm.");        
         entries.Add("444", "Psyduck Feather/250/-300/Basic -18/Psyduck Feather/It's so colorful.");
         entries.Add("307", "Psyduck Mayonnaise/375/-300/Basic -26/Psyduck Mayonnaise/It's a rich, yellow mayonnaise.");
         entries.Add("88", "Exeggcute/100/-300/Basic -79/Exeggcute/Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds.");
@@ -543,8 +582,8 @@ public class Pokedex
         entries.Add("717", "Krabby/100/-300/Fish -4/Krabby/Its pincers are not only powerful weapons, they are used for balance when walking sideways./Day^Spring Summer");
         entries.Add("710", "Krabby Pot/50/-300/Crafting/Krabby Pot/Place it in the water, load it with bait, and check the next day to see if you've caught anything. Works in streams, lakes, and the ocean.");
         entries.Add("716", "Clauncher/75/-300/Fish -4/Clauncher/They knock down flying prey by firing compressed water from their massive claws like shooting a pistol./Day^Spring Summer");
-        entries.Add("260", "Spelonberry/40/5/Basic -79/Spelonberry/Can be ground up into a powder as an ingredient for medicine.");
-        entries.Add("482", "Spelonberry Seeds/20/-300/Seeds -74/Spelonberry Seeds/Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.");
+        entries.Add("260", "Spelon/40/5/Basic -79/Spelon/Can be ground up into a powder as an ingredient for medicine.");
+        entries.Add("482", "Spelon Seeds/20/-300/Seeds -74/Spelon Seeds/Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.");
         entries.Add("715", "Corphish/120/-300/Fish -4/Corphish/Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey./Day^Spring Summer");
         entries.Add("254", "Watmel/250/45/Basic -79/Watmel/A cool, sweet summer treat.");
         entries.Add("479", "Watmel Seeds/40/-300/Seeds -74/Watmel Seeds/Plant these in the summer. Takes 12 days to mature.");
@@ -552,42 +591,35 @@ public class Pokedex
         entries.Add("719", "Clamperl/30/-300/Fish -4/Clamperl/It clamps down on its prey with both sides of its shell and doesn’t let go until they stop moving./Day^Spring Summer");
         entries.Add("392", "Omanyte/120/-300/Basic -23/Omanyte/Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people.");
         entries.Add("586", "Omanyte Fossil/80/-300/Arch/Omanyte Fossil/This must've washed up ages ago from an ancient coral reef. /Beach .03");
-        entries.Add("635", "Oranberry/100/15/Basic -79/Oranberry/Juicy, tangy, and bursting with sweet summer aroma.");
-        entries.Add("630", "Oranberry Sapling/1000/-300/Basic -74/Oranberry Sapling/Takes 28 days to produce a mature Orange tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.");
+        entries.Add("635", "Oran/100/15/Basic -79/Oran/Juicy, tangy, and bursting with sweet summer aroma.");
+        entries.Add("630", "Oran Sapling/1000/-300/Basic -74/Oran Sapling/Takes 28 days to produce a mature Orange tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.");
         entries.Add("723", "Forretress/40/-300/Fish -4/Forretress/\tIt is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards./Day^Spring Summer");
-        entries.Add("636", "Pechaberry/140/15/Basic -79/Pechaberry/It's almost fuzzy to the touch.");
-        entries.Add("631", "Pechaberry Sapling/1500/-300/Basic -74/Pechaberry Sapling/Takes 28 days to produce a mature Pechaberry tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.");
-        entries.Add("722", "Shellos/20/-300/Fish -4/Shellos/There's speculation that its appearance is determined by what it eats, but the truth remains elusive./Day^Spring Summer");
+        entries.Add("636", "Pecha/140/15/Basic -79/Pecha/It's almost fuzzy to the touch.");
+        entries.Add("631", "Pecha Sapling/1500/-300/Basic -74/Pecha Sapling/Takes 28 days to produce a mature Pecha tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.");
+        //entries.Add("722", "Shellos/20/-300/Fish -4/Shellos/There's speculation that its appearance is determined by what it eats, but the truth remains elusive./Day^Spring Summer");
         entries.Add("311", "Pineco/5/-300/Crafting -74/Pineco/Pineco hangs from a tree branch and patiently waits for prey to come along.");
         entries.Add("397", "Pincurchin/160/-300/Basic -23/Pincurchin/A slow-moving, spiny creature that some consider a delicacy.");
         entries.Add("721", "Goomy/65/-300/Fish -4/Goomy/It's covered in a slimy membrane that makes any punches or kicks slide off it harmlessly./Day^Spring Summer");
         entries.Add("421", "Sunflora/80/18/Basic -80/Sunflora/A common misconception is that the flower turns so it's always facing the sun.");
         entries.Add("431", "Sunflora Seeds/20/-300/Seeds -74/Sunflora Seeds/Plant in summer or fall. Takes 8 days to produce a large Sunflora. Yields more seeds at harvest.");
-        entries.Add("480", "Tamatoberry Seeds/25/-300/Seeds -74/Tamatoberry Seeds/Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.");
-        entries.Add("618", "Bruschetta/210/45/Cooking -7/Bruschetta/Roasted Tamatoberryes on a crisp white bread./food/0 0 0 0 0 0 0 0 0 0 0/0");
-        entries.Add("865", "Gourmet Tamatoberry Salt/0/-300/Quest/Gourmet Tamatoberry Salt/A rare, delicious and savory salt.");
-        entries.Add("272", "Eggplant/60/8/Basic -75/Eggplant/A rich and wholesome relative of the Tamatoberry. Delicious fried or stewed.");
+        entries.Add("480", "Tamato Seeds/25/-300/Seeds -74/Tamato Seeds/Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.");
+        entries.Add("618", "Bruschetta/210/45/Cooking -7/Bruschetta/Roasted Tamatoes on a crisp white bread./food/0 0 0 0 0 0 0 0 0 0 0/0");
+        entries.Add("865", "Gourmet Tamato Salt/0/-300/Quest/Gourmet Tamato Salt/A rare, delicious and savory salt.");
+        entries.Add("272", "Eggplant/60/8/Basic -75/Eggplant/A rich and wholesome relative of the Tamato. Delicious fried or stewed.");
         entries.Add("430", "Shroomish/625/5/Basic -17/Shroomish/Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves.");
         entries.Add("432", "Shroomish Oil/1065/15/Basic -26/Shroomish Oil/A gourmet cooking ingredient./drink/0 0 0 0 0 0 0 0 0 0 0/0");
-        entries.Add("604", "Lumberry Pudding/260/70/Cooking -7/Lumberry Pudding/A traditional holiday treat./food/0 0 0 0 0 0 0 0 0 0 0/0");
-        entries.Add("406", "Wild Lumberry/80/10/Basic -79/Wild Lumberry/Tart and juicy with a pungent aroma.");
-        entries.Add("629", "Apicotberry Sapling/500/-300/Basic -74/Apicotberry Sapling/Takes 28 days to produce a mature Apicotberry tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.");
-        entries.Add("634", "Apicotberry/50/15/Basic -79/Apicotberry/A tender little fruit with a rock-hard pit.");
+        entries.Add("604", "Lum Pudding/260/70/Cooking -7/Lum Pudding/A traditional holiday treat./food/0 0 0 0 0 0 0 0 0 0 0/0");
+        entries.Add("406", "Wild Lum/80/10/Basic -79/Wild Lum/Tart and juicy with a pungent aroma.");
+        entries.Add("629", "Apicot Sapling/500/-300/Basic -74/Apicot Sapling/Takes 28 days to produce a mature Apicot tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.");
+        entries.Add("634", "Apicot/50/15/Basic -79/Apicot/A tender little fruit with a rock-hard pit.");
         entries.Add("116", "Staryu/40/-300/Arch/Staryu/It appears in large numbers by seashores. At night, its central core flashes with a red light./Beach .1/Money 1 200");
         entries.Add("82", "Fire Stone/100/-300/Basic -17/Fire Stone/A peculiar stone that makes certain species of Pokemon evolve.");
-
+        entries.Add("84", "Water Stone/75/-300/Minerals -2/Water Stone/A peculiar stone that makes certain species of Pokemon evolve.");
+        entries.Add("86", "Thunder Crystal/50/-300/Minerals -2/Thunder Stone/A peculiar stone that makes certain species of Pokemon evolve.");      
+        
+        
+        
         toReplace.Changes.Add(new Item("EditData", "Data/ObjectInformation", entries));
-
-
-
-
-
-
-
-
-
-
-
 
         return toReplace;
     }

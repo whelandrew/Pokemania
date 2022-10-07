@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "937tIiajJzytw59WAgcEV3Yt/YcYqWiMQREugvL5oNF35fsvt7nHmRuETNB+WCy183GAAKYdeLn5at7en5+mIQ==",
+  "dgSpecHash": "hJbq15pM+kvB3nJgoPKagEwAWhWZbv1eYSPNh8JATjKUMjHoWe8BaWre52nP36OLHQ0BCrMUf9bB09VicgYfnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj",
+  "projectFilePath": "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whela\\.nuget\\packages\\ilasm\\4.700.2\\ilasm.4.700.2.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

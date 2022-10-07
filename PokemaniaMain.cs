@@ -1,30 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using StardewValley;
-using StardewValley.Characters;
-using StardewValley.Menus;
 
 namespace PokemaniaMain
-{
+{        
     public class ModEntry : Mod
     {
+        private static PetInfo pInfo = new PetInfo();
         private static IMonitor monitor;
         public ToReplace toReplace = new Pokedex().GetAllPokemon();
         public override void Entry(IModHelper helper)
         {
             monitor = Monitor;
             var harmony = new Harmony(ModManifest.UniqueID);
-            PetInfo.HarmonyPetPatch(harmony, Monitor, helper);
+            //pInfo = PetInfo.HarmonyPetPatch(harmony, Monitor, helper);
+            pInfo.HarmonyPetPatch(harmony, Monitor, helper);
 
             helper.Events.Content.AssetRequested += OnAssetRequested;
+            helper.Events.GameLoop.Saved += OnSaved;
+        }
+
+        private void OnSaved(object sender, SavedEventArgs e)
+        {
+            pInfo.SaveChanges();
         }
 
         private void OnAssetRequested(object sender, AssetRequestedEventArgs e)

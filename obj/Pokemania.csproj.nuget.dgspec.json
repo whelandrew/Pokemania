@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj": {}
+    "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj": {}
   },
   "projects": {
-    "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj": {
+    "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj",
+        "projectUniqueName": "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj",
         "projectName": "Pokemania",
-        "projectPath": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\Pokemania.csproj",
+        "projectPath": "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj",
         "packagesPath": "C:\\Users\\whela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\whela\\OneDrive\\Documents\\GitHub\\Pokemania\\obj\\",
+        "outputPath": "E:\\Projects\\Unity\\Pokemania\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\whela\\AppData\\Roaming\\NuGet\\NuGet.Config",
