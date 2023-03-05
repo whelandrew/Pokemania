@@ -1,0 +1,10 @@
+{
+  "stopAsking": "false",
+  "pets": {
+    "id": "0",
+    "name": "0",
+    "hasEvolved": "false",
+    "fileName": "0",
+    "friendship": "0"
+  }
+}
