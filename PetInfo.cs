@@ -20,7 +20,12 @@ public class PetInfo
     private static PetData curPet { get; set; }
     private static bool evolveSoundLoaded { get; set; }
     private static bool crySoundLoaded { get; set; }
+    public static bool PokepetsOn { get; set; }
 
+    public void SetPokepetsOn(bool isOn)
+    {
+        PokepetsOn = isOn; 
+    }
     public PetInfo HarmonyPetPatch(Harmony harmony, IMonitor monitor, IModHelper _helper)
     {
         if (!enabled && monitor != null)
@@ -39,11 +44,11 @@ public class PetInfo
 
     public void CheckForPet()
     {
-        allPets = helper.Data.ReadJsonFile<AllPets>("petData.json") ?? new AllPets();
         Pet pet = Game1.player.getPet();
         if (pet != null)
         {
-            PetData foundPet = allPets.pets.Find(x => x.name == pet.name);
+            allPets = helper.Data.ReadJsonFile<AllPets>("petData.json") ?? new AllPets();
+            PetData foundPet = allPets.pets.Find(x => x.name == pet.Name);
             if (foundPet == null)
             {
                 //create new pet data
@@ -55,6 +60,11 @@ public class PetInfo
             {
                 //update found pet data
                 curPet = foundPet;
+                if(curPet.hasEvolved)
+                {
+                    ChangePetSprite(curPet.fileName, Game1.player, pet);
+                    ChangeSpriteAudio();
+                }
             }
 
                 if (!crySoundLoaded)
@@ -130,98 +140,96 @@ public class PetInfo
 
     private static void checkAction(StardewValley.Object __instance)
     {
-        try
+        if (PokepetsOn)
         {
-            if (Game1.player.hasPet())
+            try
             {
-                if (allPets.stopAsking) return;
-
-                Pet pet = Game1.player.getPet();
-                PetData curPet = allPets.pets.Find(x => x.fileName == pet.Sprite.Texture.Name);
-                if (curPet == null || !curPet.hasEvolved)
+                if (Game1.player.hasPet())
                 {
-                    if (Game1.player.ActiveObject != null)
+                    if (allPets.stopAsking) return;
+
+                    Pet pet = Game1.player.getPet();
+                    PetData curPet = allPets.pets.Find(x => x.fileName == pet.Sprite.Texture.Name);
+                    if (curPet == null || !curPet.hasEvolved)
                     {
-                        if (Game1.player.CurrentItem.ParentSheetIndex == 82)
+                        if (Game1.player.ActiveObject != null)
                         {
-                            if (curPet.pType == 3 || curPet.pType == 0)
+                            if (Game1.player.CurrentItem.ParentSheetIndex == 82)
                             {
-                                if (Game1.player.CurrentItem.ParentSheetIndex == 82 && curPet.pType==3) //is growlithe
+                                if (curPet.pType == 3 || curPet.pType == 0)
                                 {
-                                    AskQuestion("arcanine.xnb");
+                                    if (Game1.player.CurrentItem.ParentSheetIndex == 82 && curPet.pType == 3) //is growlithe
+                                    {
+                                        AskQuestion("arcanine.xnb");
+                                    }
+                                    else
+                                    if (Game1.player.CurrentItem.ParentSheetIndex == 82 && curPet.pType == 0) //is flareon
+                                    {
+                                        AskQuestion("flareon.xnb");
+                                    }
                                 }
-                                else
-                                if (Game1.player.CurrentItem.ParentSheetIndex == 82 && curPet.pType == 0) //is flareon
-                                {
-                                    AskQuestion("flareon.xnb");
-                                }
-                            }
-                        }
-                        else
-                        if (Game1.player.CurrentItem.ParentSheetIndex == 84 || Game1.player.CurrentItem.ParentSheetIndex == 86)
-                        {
-                            if (curPet.pType == 0)
-                            {
-                                if (Game1.player.CurrentItem.ParentSheetIndex == 84) //is vaporeon
-                                {
-                                    AskQuestion("vaporeon.xnb");
-                                }
-                                else
-                                if (Game1.player.CurrentItem.ParentSheetIndex == 86) //is jolteon
-                                {
-                                    AskQuestion("jolteon.xnb");
-                                }
-                            }
-                        }
-                    }
-                    else//friendship check
-                    {
-                        if(pet.friendshipTowardFarmer >5)//if (pet.friendshipTowardFarmer >= 500)
-                        {
-                            if (curPet.pType == 2)//persian
-                            {
-                                AskQuestion("Persian.xnb");
-                            }
-                            if (curPet.pType == 1)
-                            {
-                                AskQuestion("torrakat.xnb");
-                            }
-                        }
-                        if (pet.friendshipTowardFarmer >= 200)
-                        {
-                            if (curPet.pType == 4)
-                            {
-                                AskQuestion("boltund.xnb");
-                            }
-                            if (curPet.pType == 5)
-                            {
-                                AskQuestion("houndoom.xnb");
-                            }
-                            if (Game1.timeOfDay <= 1200 && curPet.pType == 0)
-                            {
-                                AskQuestion("espeon.xnb");
                             }
                             else
-                            if (Game1.timeOfDay > 1200 && curPet.pType == 0)
+                            if (Game1.player.CurrentItem.ParentSheetIndex == 84 || Game1.player.CurrentItem.ParentSheetIndex == 86)
                             {
-                                AskQuestion("umbreon.xnb");
+                                if (curPet.pType == 0)
+                                {
+                                    if (Game1.player.CurrentItem.ParentSheetIndex == 84) //is vaporeon
+                                    {
+                                        AskQuestion("vaporeon.xnb");
+                                    }
+                                    else
+                                    if (Game1.player.CurrentItem.ParentSheetIndex == 86) //is jolteon
+                                    {
+                                        AskQuestion("jolteon.xnb");
+                                    }
+                                }
                             }
-
-                            //if (Game1.player.CurrentItem.ParentSheetIndex == 132 && pet.Sprite.Texture.Name == "Animals/cat")//silveon
-                            //{
-                            //    AskQuestion("silveon.xnb");
-                            //
-                            //leafeon
-                            //glaceon
                         }
-
+                        else//friendship check
+                        {
+                            if (curPet.friendship > 5)
+                            {
+                                if (curPet.pType == 2)//persian
+                                {
+                                    AskQuestion("Persian.xnb");
+                                }
+                                if (curPet.pType == 1)
+                                {
+                                    AskQuestion("torrakat.xnb");
+                                }
+                            }
+                            if (curPet.friendship >=200)
+                            {
+                                if (curPet.pType == 4)
+                                {
+                                    AskQuestion("boltund.xnb");
+                                }
+                                if (curPet.pType == 5)
+                                {
+                                    AskQuestion("houndoom.xnb");
+                                }
+                                if (Game1.timeOfDay <= 1200 && curPet.pType == 0)
+                                {
+                                    AskQuestion("espeon.xnb");
+                                }
+                                else
+                                if (Game1.timeOfDay > 1200 && curPet.pType == 0)
+                                {
+                                    AskQuestion("umbreon.xnb");
+                                }
+                                //silveon
+                                //leafeon
+                                //glaceon
+                            }
+                        }
                     }
                 }
             }
-        }
-        catch (Exception e)
-        {
-            Monitor.LogOnce("HarmonyPatch tryToReceiveActiveObject failed " + e.Message);
+            catch (Exception e)
+            {
+                Monitor.LogOnce("HarmonyPatch tryToReceiveActiveObject failed " + e.Message);
+            }
         }
     }
 
@@ -324,10 +332,6 @@ public class PetInfo
         pet.faceTowardFarmerForPeriod(4000, 3, faceAway: false, who);
         Game1.screenGlowOnce(Color.White, false, .009f, 0);
     }
-
-    private static bool hasDataBeenUpdated;
-    
-    
 
     private static void ChangePetSprite(string fileName, Farmer who, Pet pet)
     {
