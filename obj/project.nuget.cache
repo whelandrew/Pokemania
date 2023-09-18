@@ -1,26 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "6oj03RXAkXO/d1Ba9/hIc1zHQGbkV7Ny64IhGAXrwSzYYAhSg2A1nkM6EZlESEn+Nf8b9NIS10ouNQoR0BKzzg==",
+  "dgSpecHash": "587NopCglsgPvFGINfT/08emqKozK9ydA/DOmLzj/vzmo3/zhp6IBvjX0XKCDdqp6Fx/2UEORJhOKrUc8R2NpQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\StardewMods\\Pokemania\\Pokemania.csproj",
+  "projectFilePath": "E:\\Projects\\Unity\\Pokemania\\Pokemania.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\whela\\.nuget\\packages\\ilasm\\4.700.2\\ilasm.4.700.2.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.targets\\1.1.2\\microsoft.netcore.targets.1.1.2.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\moonsharp\\2.0.0\\moonsharp.2.0.0.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.1\\pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\platonymous.platotk\\1.5.0\\platonymous.platotk.1.5.0.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\system.console\\4.3.1\\system.console.4.3.1.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\whela\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\whela\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\whela\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\whela\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ILAsm 4.700.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'ILAsm 4.700.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "ILAsm",
       "targetGraphs": [
         "net5.0"
@@ -30,7 +36,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Platonymous.PlatoTK 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Platonymous.PlatoTK 1.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Platonymous.PlatoTK",
       "targetGraphs": [
         "net5.0"
